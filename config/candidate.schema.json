@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-finance-radar.local/config/candidate.schema.json",
+  "title": "AI x Finance Radar unverified discovery dataset",
+  "description": "Secondary-source candidates never satisfy the verified-event publication gate.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "updated_at", "candidates"],
+  "properties": {
+    "schema_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "candidates": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/candidate"}
+    }
+  },
+  "$defs": {
+    "sector": {
+      "enum": [
+        "Research & Data",
+        "Trading & Wealth",
+        "Banking Operations",
+        "Credit & Underwriting",
+        "Fraud & Identity",
+        "AML/KYC & Compliance",
+        "Insurance",
+        "Customer Operations",
+        "Financial Infrastructure"
+      ]
+    },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "type",
+        "title",
+        "company_ids",
+        "country",
+        "sectors",
+        "event_date",
+        "published_at",
+        "summary",
+        "discovery_url",
+        "publisher",
+        "source_id",
+        "source_tier",
+        "retrieved_at",
+        "verification_status",
+        "verification_notes",
+        "content_hash"
+      ],
+      "properties": {
+        "id": {"type": "string", "pattern": "^cand-[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "type": {"enum": ["funding", "product", "partnership", "customer", "acquisition", "regulation"]},
+        "title": {"type": "string", "minLength": 1, "maxLength": 300},
+        "company_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        },
+        "country": {"enum": ["CN", "US"]},
+        "sectors": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/sector"}
+        },
+        "event_date": {"type": "string", "format": "date"},
+        "published_at": {"type": "string", "format": "date-time"},
+        "summary": {"type": "string", "minLength": 1, "maxLength": 500},
+        "discovery_url": {"type": "string", "format": "uri", "pattern": "^https://"},
+        "publisher": {"type": "string", "minLength": 1},
+        "source_id": {"type": "string"},
+        "source_tier": {"const": "secondary"},
+        "retrieved_at": {"type": "string", "format": "date-time"},
+        "verification_status": {"const": "unverified"},
+        "verification_notes": {"type": "string", "minLength": 1, "maxLength": 500},
+        "content_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    }
+  }
+}

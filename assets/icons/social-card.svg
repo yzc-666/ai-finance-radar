@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">AI &#215; Finance Radar</title>
+  <desc id="desc">The public memory of how AI is changing financial services.</desc>
+  <rect width="1200" height="630" fill="#07111f"/>
+  <rect x="64" y="60" width="1072" height="510" rx="24" fill="#0b192b" stroke="#20334a"/>
+  <rect x="104" y="101" width="90" height="90" rx="18" fill="#10263b" stroke="#33536e"/>
+  <text x="149" y="157" text-anchor="middle" fill="#6ee7f2" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">A&#215;F</text>
+  <text x="222" y="139" fill="#eaf2f8" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">AI &#215; Finance</text>
+  <text x="222" y="179" fill="#e4b85e" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="4">RADAR</text>
+  <line x1="104" y1="236" x2="1096" y2="236" stroke="#20334a"/>
+  <text x="104" y="330" fill="#f6f9fb" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="700">The public memory of how AI is</text>
+  <text x="104" y="401" fill="#f6f9fb" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="700">changing financial services.</text>
+  <text x="104" y="483" fill="#9eb0c2" font-family="Arial, Helvetica, sans-serif" font-size="27">Verified records &#183; Primary-source links &#183; Open data</text>
+  <circle cx="1075" cy="503" r="10" fill="#6ee7f2"/>
+  <circle cx="1040" cy="503" r="6" fill="#e4b85e"/>
+</svg>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#07111f">
+    <meta name="description" content="A filterable directory of companies and official products tracked by AI × Finance Radar.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://yzc-666.github.io/ai-finance-radar/companies.html">
+    <meta property="og:type" content="website"><meta property="og:site_name" content="AI × Finance Radar">
+    <meta property="og:title" content="Company & product directory — AI × Finance Radar">
+    <meta property="og:description" content="Browse source-linked companies and official AI-finance products across China and the United States.">
+    <meta property="og:url" content="https://yzc-666.github.io/ai-finance-radar/companies.html">
+    <meta property="og:image" content="https://yzc-666.github.io/ai-finance-radar/assets/icons/social-card.svg">
+    <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Company & product directory — AI × Finance Radar">
+    <meta name="twitter:description" content="Source-linked companies and official AI-finance products.">
+    <meta name="twitter:image" content="https://yzc-666.github.io/ai-finance-radar/assets/icons/social-card.svg">
+    <title>Company & product directory — AI × Finance Radar</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="alternate" type="application/rss+xml" title="AI × Finance Radar" href="feed.xml">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/app.js" data-radar-app></script>
+  </head>
+  <body data-page="companies">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header"><div class="shell header-shell">
+      <a class="brand" href="index.html" aria-label="AI × Finance Radar home"><span class="brand-mark" aria-hidden="true">A×F</span><span class="brand-name">AI × Finance <strong>Radar</strong></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle><span class="sr-only">Toggle navigation</span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+      <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation" data-nav><a href="index.html">Latest</a><a href="companies.html" aria-current="page">Companies</a><a href="methodology.html">Methodology</a><a class="nav-data-link" href="data/companies.json">JSON <span aria-hidden="true">↗</span></a></nav>
+    </div></header>
+    <main id="main-content">
+      <section class="page-hero shell"><div><p class="eyebrow">Company & product directory</p><h1>Who is building, deploying, and enabling AI in finance?</h1><p>Browse tracked organizations and their official products. Every company name and product record links back to a first-party destination.</p></div><p class="data-status" data-data-status role="status">Loading local records…</p></section>
+      <section class="metrics-section shell directory-metrics" aria-label="Directory snapshot"><dl class="metric-grid">
+        <div class="metric"><dt>Companies</dt><dd data-company-stat="companies">—</dd></div>
+        <div class="metric"><dt>Official products</dt><dd data-company-stat="products">—</dd></div>
+        <div class="metric"><dt>Sectors</dt><dd data-company-stat="sectors">—</dd></div>
+        <div class="metric metric-wide"><dt>Last updated</dt><dd class="metric-date" data-company-stat="updated">—</dd></div>
+      </dl></section>
+      <section class="content-section shell directory-section" aria-labelledby="directory-heading">
+        <div class="section-heading"><div><p class="eyebrow">Verified directory</p><h2 id="directory-heading">Companies and products</h2><p>Product notes summarize official positioning, not an endorsement.</p></div><span class="result-count" data-company-result-count aria-live="polite">Loading…</span></div>
+        <form class="filter-panel company-filters" data-company-filters aria-label="Filter companies">
+          <label class="search-field"><span>Search</span><span class="input-wrap"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path d="m21 21-4.3-4.3m2.3-5.2A7.5 7.5 0 1 1 4 11.5a7.5 7.5 0 0 1 15 0Z"/></svg><input type="search" name="q" autocomplete="off" placeholder="Company, product, sector…" data-company-filter="q"></span></label>
+          <label><span>Country</span><select name="country" data-company-filter="country"><option value="">All countries</option></select></label>
+          <label><span>Sector</span><select name="sector" data-company-filter="sector"><option value="">All sectors</option></select></label>
+          <button class="button button-quiet filter-reset" type="button" data-company-filter-reset>Reset filters</button>
+        </form>
+        <div class="company-list" data-company-list aria-busy="true"><noscript><div class="state-panel"><h3>JavaScript is required for the directory</h3><p>The records remain available in <a href="data/companies.json">companies.json</a>.</p></div></noscript></div>
+      </section>
+      <section class="access-section compact-access"><div class="shell access-grid">
+        <div><p class="eyebrow">Use the data</p><h2>Built to be inspected.</h2><p>Download the normalized directory or read how identity, product, and source records pass the publication gate.</p></div>
+        <div class="access-links"><a href="data/companies.json"><span><strong>Company JSON</strong><small>Normalized source records</small></span><span aria-hidden="true">→</span></a><a href="data/exports/companies.csv"><span><strong>Company CSV</strong><small>Generated by the site build</small></span><span aria-hidden="true">→</span></a><a href="methodology.html"><span><strong>Verification method</strong><small>Source tiers and publish gate</small></span><span aria-hidden="true">→</span></a></div>
+      </div></section>
+    </main>
+    <footer class="site-footer"><div class="shell footer-grid">
+      <div><a class="brand footer-brand" href="index.html">AI × Finance <strong>Radar</strong></a><p>Independent, source-linked research on AI in financial services.</p></div>
+      <nav aria-label="Footer navigation"><a href="index.html">Latest</a><a href="methodology.html">Methodology</a><a href="feed.xml">RSS</a><a href="sitemap.xml">Sitemap</a></nav>
+      <p class="footer-meta">Last dataset update: <span data-footer-updated>loading</span><br>Not investment advice.</p>
+    </div></footer>
+  </body>
+</html>

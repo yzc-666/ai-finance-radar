@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-01T08:00:00Z",
+  "candidates": [
+    {
+      "id": "cand-2025-03-11-worth-seed",
+      "slug": "worth-reportedly-raises-20m-seed",
+      "type": "funding",
+      "title": "The sibling founders of Stax Payments are back with a $20M seed raise for their new fintech, Worth",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Credit & Underwriting",
+        "Financial Infrastructure"
+      ],
+      "event_date": "2025-03-11",
+      "published_at": "2025-03-11T00:00:00Z",
+      "summary": "TechCrunch reported that Worth raised $20 million for an AI-supported small-business onboarding and underwriting platform.",
+      "discovery_url": "https://techcrunch.com/2025/03/11/the-sibling-founders-of-stax-payments-are-back-with-a-new-fintech-and-a-20m-seed-raise",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "unverified",
+      "verification_notes": "Secondary-source discovery only; confirm the round and product claims on an official company or filing source before publication.",
+      "content_hash": "becf213f79219bcb6882b70a618aa7a75d817b3b3e21de00188d1df52611b921"
+    },
+    {
+      "id": "cand-2025-03-10-nirvana-series-c",
+      "slug": "nirvana-reportedly-raises-80m-series-c",
+      "type": "funding",
+      "title": "Nirvana keeps on truckin' with $80M at $830M valuation for its AI-powered insurance",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Insurance",
+        "Credit & Underwriting"
+      ],
+      "event_date": "2025-03-10",
+      "published_at": "2025-03-10T00:00:00Z",
+      "summary": "TechCrunch reported that Nirvana raised $80 million for its AI-supported commercial insurance platform.",
+      "discovery_url": "https://techcrunch.com/2025/03/10/nirvana-keeps-on-truckin-with-80m-at-a-830m-valuation-for-its-ai-powered-insurance",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "unverified",
+      "verification_notes": "Secondary-source discovery only; locate an official company announcement or filing before publication.",
+      "content_hash": "66471de6a569f39493736bea30ddddf1353e06c41f452870b51db257a8896ae7"
+    },
+    {
+      "id": "cand-2025-02-27-taktile-series-b",
+      "slug": "taktile-reportedly-raises-54m-series-b",
+      "type": "funding",
+      "title": "Taktile helps fintechs build automated decision-making workflows",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Credit & Underwriting",
+        "Financial Infrastructure"
+      ],
+      "event_date": "2025-02-27",
+      "published_at": "2025-02-27T00:00:00Z",
+      "summary": "TechCrunch reported that Taktile raised $54 million for automated financial decisioning workflows.",
+      "discovery_url": "https://techcrunch.com/2025/02/27/taktile-helps-fintechs-build-automated-decision-making-workflows",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "unverified",
+      "verification_notes": "Secondary-source discovery only; confirm funding details with an official announcement before publication.",
+      "content_hash": "0bc54550531dcbf5a1ef15945d721c5b7b768ee0a88531aaf01ed63ecd3e8c56"
+    }
+  ]
+}

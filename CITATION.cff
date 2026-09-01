@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use the AI × Finance Radar dataset, please cite this repository."
+title: "AI × Finance Radar"
+type: dataset
+authors:
+  - family-names: Yu
+    given-names: Zichao
+repository-code: "https://github.com/yzc-666/ai-finance-radar"
+url: "https://yzc-666.github.io/ai-finance-radar/"
+license: CC-BY-4.0
+abstract: >-
+  An open, source-linked dataset and website tracking companies, products, and
+  meaningful events at the intersection of artificial intelligence and
+  financial services in China and the United States.

@@ -1,0 +1,96 @@
+name: Correct a record
+description: Report an inaccurate, outdated, duplicated, or misattributed record.
+title: "[Correction]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections are reviewed against source provenance, not popularity or unsupported assertions. Link the strongest available primary evidence: an official regulator notice or filing, government record, or first-party company publication. For a security vulnerability, use the private process in SECURITY.md instead.
+
+  - type: input
+    id: record
+    attributes:
+      label: Record ID or URL
+      placeholder: event-us-example-2026-001 or https://yzc-666.github.io/ai-finance-radar/…
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem-type
+    attributes:
+      label: Problem type
+      options:
+        - Factual field is unsupported or inaccurate
+        - Source is missing, broken, or misattributed
+        - Record is outdated
+        - Duplicate record
+        - Fact and editorial context are mixed
+        - Date or timestamp problem
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-record
+    attributes:
+      label: Current text or field
+      description: Copy only the specific field or sentence at issue.
+      placeholder: The record currently says …
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-correction
+    attributes:
+      label: Proposed correction
+      description: Explain the smallest source-supported change that should be made.
+      placeholder: Change field X from … to … because …
+    validations:
+      required: true
+
+  - type: textarea
+    id: primary-evidence
+    attributes:
+      label: Primary evidence
+      description: Provide direct official URL(s), publisher, title, and publication date. Factual corrections require primary evidence; media coverage alone is not sufficient. If an official page was removed, include a lawful archive of that original page.
+      placeholder: |
+        https://example.com/original-source
+        Publisher — “Source title” — YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence-mapping
+    attributes:
+      label: How the evidence supports the correction
+      description: Quote a short relevant passage or identify the exact section. Do not paste full copyrighted articles.
+      placeholder: Section … establishes that …
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Optional secondary reporting, archived URLs, duplicate IDs, or other useful context.
+
+  - type: textarea
+    id: conflicts
+    attributes:
+      label: Conflicts or affiliations
+      description: Disclose any relationship with an organization affected by this correction.
+      placeholder: None, or describe the relationship.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Correction checks
+      options:
+        - label: I supplied primary evidence that supports the proposed correction.
+          required: true
+        - label: I did not include confidential information, unnecessary personal data, or copied full-text content.
+          required: true
+        - label: I agree to follow the Code of Conduct.
+          required: true

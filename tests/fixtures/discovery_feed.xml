@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>TechCrunch Fintech</title>
+    <link>https://techcrunch.com/category/fintech/</link>
+    <description>Secondary discovery fixture; never a publication source.</description>
+    <item>
+      <title>Taktile helps fintechs build automated decision-making workflows</title>
+      <link>https://techcrunch.com/2025/02/27/taktile-helps-fintechs-build-automated-decision-making-workflows/?utm_source=rss</link>
+      <guid isPermaLink="true">https://techcrunch.com/2025/02/27/taktile-helps-fintechs-build-automated-decision-making-workflows/</guid>
+      <pubDate>Thu, 27 Feb 2025 15:00:00 +0000</pubDate>
+      <description><![CDATA[The company uses AI to help financial risk teams automate credit and underwriting decisions.]]></description>
+      <category>Fintech</category>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>A consumer gadget launch unrelated to finance</title>
+      <link>https://techcrunch.com/2025/02/28/unrelated-gadget/</link>
+      <guid isPermaLink="true">unrelated-gadget</guid>
+      <pubDate>Fri, 28 Feb 2025 15:00:00 +0000</pubDate>
+      <description><![CDATA[A hardware story with no relevant discovery keywords.]]></description>
+      <category>Hardware</category>
+    </item>
+  </channel>
+</rss>

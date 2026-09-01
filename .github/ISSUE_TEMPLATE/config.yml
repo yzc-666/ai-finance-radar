@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/yzc-666/ai-finance-radar/security/policy
+    about: Report security issues through the private process described in SECURITY.md.
+  - name: Methodology and evidence policy
+    url: https://yzc-666.github.io/ai-finance-radar/methodology.html
+    about: Read the inclusion, sourcing, and source-provenance rules first.

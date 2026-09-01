@@ -1,0 +1,43 @@
+@import url("./styles.css");
+
+/*
+ * Canonical GitHub Pages entrypoint. The visual system remains split from this
+ * small compatibility layer so existing cached builds can migrate cleanly.
+ */
+
+.event-context {
+  margin: 0.9rem 0 0;
+  padding: 0.75rem 0.9rem;
+  border-left: 2px solid var(--gold);
+  background: color-mix(in srgb, var(--gold) 8%, transparent);
+  color: var(--ink-muted);
+  font-size: 0.84rem;
+  line-height: 1.65;
+}
+
+.event-context strong {
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.event-source-meta {
+  flex-wrap: wrap;
+}
+
+.is-deep-linked {
+  border-color: var(--cyan) !important;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--cyan) 15%, transparent);
+}
+
+@supports not (background: color-mix(in srgb, white, black)) {
+  .event-context {
+    background: rgba(210, 168, 87, 0.08);
+  }
+
+  .is-deep-linked {
+    box-shadow: 0 0 0 3px rgba(75, 210, 226, 0.14);
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "cik": "0000123456",
+  "name": "Acme AI, Inc.",
+  "filings": {
+    "recent": {
+      "accessionNumber": [
+        "0000123456-26-000001",
+        "0000123456-26-000002"
+      ],
+      "filingDate": [
+        "2026-08-31",
+        "2026-08-20"
+      ],
+      "reportDate": [
+        "2026-08-30",
+        "2026-08-19"
+      ],
+      "acceptanceDateTime": [
+        "20260831163000",
+        "20260820163000"
+      ],
+      "form": [
+        "8-K",
+        "10-Q"
+      ],
+      "primaryDocument": [
+        "acme-20260831.htm",
+        "acme-20260820.htm"
+      ],
+      "primaryDocDescription": [
+        "Current report",
+        "Quarterly report"
+      ]
+    }
+  }
+}

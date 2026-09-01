@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark"><meta name="theme-color" content="#07111f">
+    <meta name="description" content="How AI × Finance Radar tiers sources, verifies records, handles corrections, and keeps unverified discoveries out of the public feed.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://yzc-666.github.io/ai-finance-radar/methodology.html">
+    <meta property="og:type" content="article"><meta property="og:site_name" content="AI × Finance Radar">
+    <meta property="og:title" content="Methodology — AI × Finance Radar">
+    <meta property="og:description" content="A concise explanation of source tiers, verification, publication gates, and corrections.">
+    <meta property="og:url" content="https://yzc-666.github.io/ai-finance-radar/methodology.html">
+    <meta property="og:image" content="https://yzc-666.github.io/ai-finance-radar/assets/icons/social-card.svg">
+    <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Methodology — AI × Finance Radar">
+    <meta name="twitter:description" content="How the Radar verifies and publishes source-linked records.">
+    <meta name="twitter:image" content="https://yzc-666.github.io/ai-finance-radar/assets/icons/social-card.svg">
+    <title>Methodology — AI × Finance Radar</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="alternate" type="application/rss+xml" title="AI × Finance Radar" href="feed.xml">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/app.js" data-radar-app></script>
+  </head>
+  <body data-page="methodology">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header"><div class="shell header-shell">
+      <a class="brand" href="index.html" aria-label="AI × Finance Radar home"><span class="brand-mark" aria-hidden="true">A×F</span><span class="brand-name">AI × Finance <strong>Radar</strong></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle><span class="sr-only">Toggle navigation</span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+      <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation" data-nav><a href="index.html">Latest</a><a href="companies.html">Companies</a><a href="methodology.html" aria-current="page">Methodology</a><a class="nav-data-link" href="data/events.json">JSON <span aria-hidden="true">↗</span></a></nav>
+    </div></header>
+    <main id="main-content">
+      <article class="methodology shell">
+        <header class="methodology-hero"><p class="eyebrow">Trust & methodology</p><h1>A smaller claim, made defensibly.</h1><p class="hero-lede">The Radar is not a complete market database. It is a transparent record of concrete AI-finance developments that can be traced to named evidence.</p><div class="method-meta" aria-label="Method summary"><span><strong>Scope</strong> China and United States</span><span><strong>Language</strong> English records</span><span><strong>Output</strong> Open JSON, CSV, RSS</span></div></header>
+        <div class="method-layout">
+          <nav class="method-toc" aria-label="On this page"><p class="card-kicker">On this page</p><a href="#source-tiers">Source tiers</a><a href="#publish-gate">Publish gate</a><a href="#record-lifecycle">Record lifecycle</a><a href="#corrections">Corrections</a><a href="#disclaimer">Disclaimer</a></nav>
+          <div class="prose">
+            <section id="source-tiers">
+              <p class="section-number">01</p><h2>Source tiers</h2><p>Source tier describes how evidence may be used. It does not score whether an organization or product is commercially successful.</p>
+              <div class="tier-list">
+                <article class="tier-card tier-primary"><div><span class="tier-label">Tier 1</span><h3>Primary and official</h3></div><p>Regulatory filings and notices, company newsrooms, official product documentation, and first-party investor materials. These sources can support publication when all record checks pass.</p></article>
+                <article class="tier-card"><div><span class="tier-label">Tier 2</span><h3>Established reporting</h3></div><p>Named, accountable newsrooms and specialist publications. These are useful for discovery and context, but a media-only claim is held for additional verification.</p></article>
+                <article class="tier-card"><div><span class="tier-label">Tier 3</span><h3>Lead sources</h3></div><p>Aggregators, databases, newsletters, and social posts. They can identify a lead, but they do not qualify a record for the public event feed.</p></article>
+              </div>
+            </section>
+            <section id="publish-gate">
+              <p class="section-number">02</p><h2>The publication gate</h2><p>An event appears publicly only after the minimum evidence and integrity checks below succeed.</p>
+              <ol class="gate-list">
+                <li><span>1</span><div><strong>Concrete, attributable claim</strong><p>The record describes an observable product, partnership, customer, funding, acquisition, or regulatory development—not a prediction or promotional theme.</p></div></li>
+                <li><span>2</span><div><strong>Resolvable primary evidence</strong><p>The primary URL works, identifies its publisher, and supports the central claim. Secondary reporting may add context but cannot replace missing evidence.</p></div></li>
+                <li><span>3</span><div><strong>Normalized identity and date</strong><p>Companies map to stable IDs; country, sector, event type, dates, and retrieval time follow the public record contract.</p></div></li>
+                <li><span>4</span><div><strong>Duplicate and integrity checks</strong><p>Stable IDs, slugs, source URLs, and content hashes prevent silent duplication or unreviewed change.</p></div></li>
+                <li><span>5</span><div><strong>Verified status</strong><p>Only records explicitly marked <code>verified</code> are rendered into detail pages and the RSS feed. Discovery candidates remain outside production.</p></div></li>
+              </ol>
+            </section>
+            <section id="record-lifecycle">
+              <p class="section-number">03</p><h2>Record lifecycle</h2>
+              <div class="lifecycle" role="list" aria-label="Record lifecycle"><div role="listitem"><span>01</span><strong>Discover</strong><small>Monitor allowlisted sources and leads</small></div><div role="listitem"><span>02</span><strong>Normalize</strong><small>Apply stable IDs and taxonomy</small></div><div role="listitem"><span>03</span><strong>Verify</strong><small>Check evidence, dates, and identity</small></div><div role="listitem"><span>04</span><strong>Publish</strong><small>Build static pages, feeds, and exports</small></div><div role="listitem"><span>05</span><strong>Correct</strong><small>Preserve an auditable update trail</small></div></div>
+              <p>Each public record carries a source tier, retrieval timestamp, verification status, and content hash. The same accepted inputs produce the same public output.</p>
+            </section>
+            <section id="corrections"><p class="section-number">04</p><h2>Corrections</h2><p>Include the affected record ID or URL, describe the issue precisely, and attach a primary source where possible. Accepted corrections update the underlying data rather than hiding prior Git history.</p><a class="button button-primary" href="https://github.com/yzc-666/ai-finance-radar/issues/new?labels=correction&amp;title=Correction%3A%20" rel="noopener noreferrer">Open a correction request <span aria-hidden="true">↗</span></a></section>
+            <section class="disclaimer-panel" id="disclaimer"><p class="section-number">05</p><h2>Disclaimer</h2><p>AI × Finance Radar is an independent research and discovery project. It is not investment, legal, accounting, or financial advice. Inclusion is not an endorsement; omission is not a judgment. Linked material belongs to its original publishers, and summaries may become outdated.</p></section>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer class="site-footer"><div class="shell footer-grid"><div><a class="brand footer-brand" href="index.html">AI × Finance <strong>Radar</strong></a><p>Independent, source-linked research on AI in financial services.</p></div><nav aria-label="Footer navigation"><a href="index.html">Latest</a><a href="companies.html">Companies</a><a href="feed.xml">RSS</a><a href="sitemap.xml">Sitemap</a></nav><p class="footer-meta">Open methods. Inspectable evidence.<br>Not investment advice.</p></div></footer>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+name: Submit a company or event
+description: Propose a source-linked company, product, or AI-finance event.
+title: "[Submission]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the Radar. Published records require primary evidence: an official regulator notice or filing, government record, or first-party company publication. Reputable media may help discovery, but it is not enough by itself for automatic publication.
+
+  - type: dropdown
+    id: record-type
+    attributes:
+      label: Submission type
+      options:
+        - Company or product
+        - Funding event
+        - Product launch
+        - Partnership or customer deployment
+        - Acquisition
+        - Regulatory or policy event
+        - Other material event
+    validations:
+      required: true
+
+  - type: input
+    id: subject
+    attributes:
+      label: Company, organization, or product
+      placeholder: Official name
+    validations:
+      required: true
+
+  - type: dropdown
+    id: geography
+    attributes:
+      label: Primary geography
+      options:
+        - China
+        - United States
+        - Cross-border
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: event-date
+    attributes:
+      label: Event or publication date
+      description: Use YYYY-MM-DD where the source provides a full date.
+      placeholder: "2026-09-01"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-record
+    attributes:
+      label: What should the Radar record?
+      description: State the narrow factual claim supported by the evidence. Separate your interpretation from the reported fact.
+      placeholder: Describe what happened, the relevant AI and finance use case, and any context that should be labeled separately.
+    validations:
+      required: true
+
+  - type: textarea
+    id: primary-evidence
+    attributes:
+      label: Primary evidence
+      description: Provide direct URL(s) to official regulator or government material, a filing, or a first-party company publication. Include publisher, title, and publication date for each source. Media articles alone do not satisfy this field.
+      placeholder: |
+        https://example.com/original-source
+        Publisher — “Source title” — YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence-mapping
+    attributes:
+      label: Evidence mapping
+      description: Quote or precisely identify the passage that supports each proposed fact. Do not paste full copyrighted articles.
+      placeholder: The source states …, which supports the proposed field …
+    validations:
+      required: true
+
+  - type: textarea
+    id: secondary-sources
+    attributes:
+      label: Secondary discovery sources
+      description: Optional reputable reporting that adds context or helped you find the primary source.
+      placeholder: URLs with publisher and date
+
+  - type: textarea
+    id: conflicts
+    attributes:
+      label: Conflicts or affiliations
+      description: Disclose whether you work for, advise, invest in, or otherwise represent an organization named above.
+      placeholder: None, or describe the relationship.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I linked primary evidence and distinguished evidence-supported facts from my own context.
+          required: true
+        - label: I did not copy a full article, paywalled material, personal data, or confidential information.
+          required: true
+        - label: I agree to follow the Code of Conduct.
+          required: true

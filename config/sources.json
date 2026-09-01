@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-01T08:00:00Z",
+  "language": "en",
+  "markets": ["CN", "US"],
+  "taxonomy": {
+    "sectors": ["Research & Data", "Trading & Wealth", "Banking Operations", "Credit & Underwriting", "Fraud & Identity", "AML/KYC & Compliance", "Insurance", "Customer Operations", "Financial Infrastructure"],
+    "event_types": ["funding", "product", "partnership", "customer", "acquisition", "regulation"]
+  },
+  "policy": {
+    "auto_publish_tiers": ["primary"],
+    "candidate_tiers": ["secondary"],
+    "require_allowlisted_domain": true,
+    "secondary_never_auto_publishes": true,
+    "commercial_or_paywalled_scraping": false,
+    "feed_content_use": "Store titles, dates, canonical links, and short factual excerpts only; linked material remains subject to publisher terms."
+  },
+  "http": {
+    "timeout_seconds": 15,
+    "user_agent": "AI-Finance-Radar/1.0 (research data project; contact via repository issues)"
+  },
+  "offline_retrieved_at": "2026-09-01T08:00:00Z",
+  "official_domains": [
+    {"domain": "alpha-sense.com", "publisher": "AlphaSense", "company_ids": ["alphasense"]},
+    {"domain": "kensho.com", "publisher": "Kensho", "company_ids": ["kensho"]},
+    {"domain": "hebbia.com", "publisher": "Hebbia", "company_ids": ["hebbia"]},
+    {"domain": "rogo.ai", "publisher": "Rogo", "company_ids": ["rogo"]},
+    {"domain": "upstart.com", "publisher": "Upstart", "company_ids": ["upstart"]},
+    {"domain": "zest.ai", "publisher": "Zest AI", "company_ids": ["zest-ai"]},
+    {"domain": "scienaptic.ai", "publisher": "Scienaptic AI", "company_ids": ["scienaptic-ai"]},
+    {"domain": "ocrolus.com", "publisher": "Ocrolus", "company_ids": ["ocrolus"]},
+    {"domain": "highradius.com", "publisher": "HighRadius", "company_ids": ["highradius"]},
+    {"domain": "datavisor.com", "publisher": "DataVisor", "company_ids": ["datavisor"]},
+    {"domain": "feedzai.com", "publisher": "Feedzai", "company_ids": ["feedzai"]},
+    {"domain": "sardine.ai", "publisher": "Sardine", "company_ids": ["sardine"]},
+    {"domain": "socure.com", "publisher": "Socure", "company_ids": ["socure"]},
+    {"domain": "alloy.com", "publisher": "Alloy", "company_ids": ["alloy"]},
+    {"domain": "unit21.ai", "publisher": "Unit21", "company_ids": ["unit21"]},
+    {"domain": "evolutioniq.com", "publisher": "EvolutionIQ", "company_ids": ["evolutioniq"]},
+    {"domain": "gradientai.com", "publisher": "Gradient AI", "company_ids": ["gradient-ai"]},
+    {"domain": "kasisto.com", "publisher": "Kasisto", "company_ids": ["kasisto"]},
+    {"domain": "interface.ai", "publisher": "interface.ai", "company_ids": ["interface-ai"]},
+    {"domain": "posh.ai", "publisher": "Posh AI", "company_ids": ["posh-ai"]},
+    {"domain": "norm.ai", "publisher": "Norm AI", "company_ids": ["norm-ai"]},
+    {"domain": "ascentregtech.com", "publisher": "Ascent RegTech", "company_ids": ["ascent-regtech"]},
+    {"domain": "antgroup.com", "publisher": "Ant Group", "company_ids": ["ant-group"]},
+    {"domain": "ocft.com", "publisher": "OneConnect", "company_ids": ["oneconnect"]},
+    {"domain": "tongdun.net", "publisher": "Tongdun Technology", "company_ids": ["tongdun"]},
+    {"domain": "brgroup.com", "publisher": "BaiRong", "company_ids": ["bairong"]},
+    {"domain": "icekredit.com", "publisher": "IceKredit", "company_ids": ["icekredit"]},
+    {"domain": "ishumei.com", "publisher": "Shumei Technology", "company_ids": ["shumei-technology"]},
+    {"domain": "webank.com", "publisher": "WeBank", "company_ids": ["webank"]},
+    {"domain": "mybank.cn", "publisher": "MYbank", "company_ids": ["mybank"]},
+    {"domain": "duxiaoman.com", "publisher": "Du Xiaoman Financial", "company_ids": ["du-xiaoman"]},
+    {"domain": "qifu.tech", "publisher": "Qfin Holdings", "company_ids": ["qifu-technology"]},
+    {"domain": "finvgroup.com", "publisher": "FinVolution Group", "company_ids": ["finvolution"]},
+    {"domain": "lexin.com", "publisher": "LexinFintech", "company_ids": ["lexinfintech"]},
+    {"domain": "linklogis.com", "publisher": "Linklogis", "company_ids": ["linklogis"]},
+    {"domain": "xtransfer.com", "publisher": "XTransfer", "company_ids": ["xtransfer"]},
+    {"domain": "aqumon.com", "publisher": "AQUMON", "company_ids": ["aqumon"]},
+    {"domain": "zhongan.com", "publisher": "ZhongAn Online", "company_ids": ["zhongan-online"]},
+    {"domain": "chinascope.com", "publisher": "ChinaScope", "company_ids": ["chinascope"]},
+    {"domain": "hundsun.com", "publisher": "Hundsun Technologies", "company_ids": ["hundsun-technologies"]},
+    {"domain": "sec.gov", "publisher": "U.S. Securities and Exchange Commission", "company_ids": []}
+  ],
+  "sources": [
+    {
+      "id": "alphasense-newsroom", "name": "AlphaSense newsroom", "publisher": "AlphaSense",
+      "source_class": "company_primary", "source_tier": "primary", "auto_publish": true, "publish_mode": "auto", "enabled": true,
+      "canonical_url": "https://www.alpha-sense.com/feed/", "url": "https://www.alpha-sense.com/feed/",
+      "machine_endpoint": {"adapter": "rss", "url": "https://www.alpha-sense.com/feed/"},
+      "adapter": "rss", "allowed_domains": ["alpha-sense.com"], "company_ids": ["alphasense"], "country": "US", "jurisdictions": ["US"], "sectors": ["Research & Data"],
+      "fixture": "official_feed.xml", "include_keywords": ["AI", "acquire", "funding", "launch", "partnership", "raise"],
+      "content_policy": "official_feed_metadata_and_short_excerpt"
+    },
+    {
+      "id": "rogo-newsroom", "name": "Rogo newsroom", "publisher": "Rogo",
+      "source_class": "company_primary", "source_tier": "primary", "auto_publish": true, "publish_mode": "auto", "enabled": true,
+      "canonical_url": "https://rogo.ai/news", "url": "https://rogo.ai/news", "adapter": "manual",
+      "allowed_domains": ["rogo.ai"], "company_ids": ["rogo"], "country": "US", "jurisdictions": ["US"], "sectors": ["Research & Data", "Banking Operations"], "content_policy": "official_metadata_only"
+    },
+    {
+      "id": "hebbia-newsroom", "name": "Hebbia newsroom", "publisher": "Hebbia",
+      "source_class": "company_primary", "source_tier": "primary", "auto_publish": true, "publish_mode": "auto", "enabled": true,
+      "canonical_url": "https://www.hebbia.com/newsroom", "url": "https://www.hebbia.com/newsroom", "adapter": "manual",
+      "allowed_domains": ["hebbia.com"], "company_ids": ["hebbia"], "country": "US", "jurisdictions": ["US"], "sectors": ["Research & Data"], "content_policy": "official_metadata_only"
+    },
+    {
+      "id": "feedzai-newsroom", "name": "Feedzai press releases", "publisher": "Feedzai",
+      "source_class": "company_primary", "source_tier": "primary", "auto_publish": true, "publish_mode": "auto", "enabled": true,
+      "canonical_url": "https://www.feedzai.com/press-releases/", "url": "https://www.feedzai.com/press-releases/", "adapter": "manual",
+      "allowed_domains": ["feedzai.com"], "company_ids": ["feedzai"], "country": "US", "jurisdictions": ["US"], "sectors": ["Fraud & Identity", "AML/KYC & Compliance"], "content_policy": "official_metadata_only"
+    },
+    {
+      "id": "zest-ai-newsroom", "name": "Zest AI announcements", "publisher": "Zest AI",
+      "source_class": "company_primary", "source_tier": "primary", "auto_publish": true, "publish_mode": "auto", "enabled": true,
+      "canonical_url": "https://www.zest.ai/news/", "url": "https://www.zest.ai/news/", "adapter": "manual",
+      "allowed_domains": ["zest.ai"], "company_ids": ["zest-ai"], "country": "US", "jurisdictions": ["US"], "sectors": ["Credit & Underwriting", "Fraud & Identity"], "content_policy": "official_metadata_only"
+    },
+    {
+      "id": "sardine-newsroom", "name": "Sardine blog", "publisher": "Sardine",
+      "source_class": "company_primary", "source_tier": "primary", "auto_publish": true, "publish_mode": "auto", "enabled": true,
+      "canonical_url": "https://www.sardine.ai/blog", "url": "https://www.sardine.ai/blog", "adapter": "manual",
+      "allowed_domains": ["sardine.ai"], "company_ids": ["sardine"], "country": "US", "jurisdictions": ["US"], "sectors": ["Fraud & Identity", "AML/KYC & Compliance"], "content_policy": "official_metadata_only"
+    },
+    {
+      "id": "ant-group-newsroom", "name": "Ant Group press releases", "publisher": "Ant Group",
+      "source_class": "company_primary", "source_tier": "primary", "auto_publish": true, "publish_mode": "auto", "enabled": true,
+      "canonical_url": "https://www.antgroup.com/news-media/press-releases", "url": "https://www.antgroup.com/news-media/press-releases", "adapter": "manual",
+      "allowed_domains": ["antgroup.com"], "company_ids": ["ant-group"], "country": "CN", "jurisdictions": ["CN"], "sectors": ["Trading & Wealth", "Financial Infrastructure"], "content_policy": "official_metadata_only"
+    },
+    {
+      "id": "qifu-investor-relations", "name": "Qfin Holdings investor relations", "publisher": "Qfin Holdings",
+      "source_class": "company_primary", "source_tier": "primary", "auto_publish": true, "publish_mode": "auto", "enabled": true,
+      "canonical_url": "https://ir.qifu.tech/news-releases", "url": "https://ir.qifu.tech/news-releases", "adapter": "manual",
+      "allowed_domains": ["qifu.tech"], "company_ids": ["qifu-technology"], "country": "CN", "jurisdictions": ["CN"], "sectors": ["Credit & Underwriting", "Banking Operations"], "content_policy": "official_metadata_only"
+    },
+    {
+      "id": "linklogis-press-center", "name": "Linklogis press center", "publisher": "Linklogis",
+      "source_class": "company_primary", "source_tier": "primary", "auto_publish": true, "publish_mode": "auto", "enabled": true,
+      "canonical_url": "https://www.linklogis.com/en/news/", "url": "https://www.linklogis.com/en/news/", "adapter": "manual",
+      "allowed_domains": ["linklogis.com"], "company_ids": ["linklogis"], "country": "CN", "jurisdictions": ["CN"], "sectors": ["Banking Operations", "Financial Infrastructure"], "content_policy": "official_metadata_only"
+    },
+    {
+      "id": "sec-press-releases", "name": "SEC press releases", "publisher": "U.S. Securities and Exchange Commission",
+      "source_class": "government_primary", "source_tier": "primary", "auto_publish": true, "publish_mode": "auto", "enabled": true,
+      "canonical_url": "https://www.sec.gov/news/pressreleases.rss", "url": "https://www.sec.gov/news/pressreleases.rss",
+      "machine_endpoint": {"adapter": "rss", "url": "https://www.sec.gov/news/pressreleases.rss"},
+      "adapter": "rss", "allowed_domains": ["sec.gov"], "company_ids": [], "country": "US", "jurisdictions": ["US"], "sectors": ["Trading & Wealth", "Fraud & Identity", "AML/KYC & Compliance"],
+      "default_event_type": "regulation", "fixture": "sec_feed.xml", "include_keywords": ["artificial intelligence", "machine learning", "predictive data analytics", "emerging technologies"], "content_policy": "official_feed_metadata_and_short_excerpt"
+    },
+    {
+      "id": "upstart-sec-submissions", "name": "Upstart SEC submissions", "publisher": "U.S. Securities and Exchange Commission",
+      "source_class": "government_primary", "source_tier": "primary", "auto_publish": true, "publish_mode": "auto", "enabled": false,
+      "canonical_url": "https://data.sec.gov/submissions/CIK0001647639.json", "url": "https://data.sec.gov/submissions/CIK0001647639.json",
+      "machine_endpoint": {"adapter": "sec_submissions", "url": "https://data.sec.gov/submissions/CIK0001647639.json", "forms": ["8-K"]},
+      "adapter": "sec_submissions", "allowed_domains": ["sec.gov"], "company_ids": ["upstart"], "country": "US", "jurisdictions": ["US"], "sectors": ["Credit & Underwriting"],
+      "default_event_type": "regulation", "accepted_forms": ["8-K"], "max_items": 10, "fixture": "sec_submissions.json", "content_policy": "official_filing_metadata"
+    },
+    {
+      "id": "techcrunch-fintech-discovery", "name": "TechCrunch fintech discovery feed", "publisher": "TechCrunch",
+      "source_class": "secondary", "source_tier": "secondary", "auto_publish": false, "publish_mode": "candidate", "enabled": true,
+      "canonical_url": "https://techcrunch.com/category/fintech/feed/", "url": "https://techcrunch.com/category/fintech/feed/",
+      "machine_endpoint": {"adapter": "discovery_rss", "url": "https://techcrunch.com/category/fintech/feed/"},
+      "adapter": "discovery_rss", "allowed_domains": ["techcrunch.com"], "company_ids": [], "country": "US", "jurisdictions": ["US"], "sectors": ["Financial Infrastructure"],
+      "fixture": "discovery_feed.xml", "include_keywords": ["AI", "artificial intelligence", "fraud", "identity", "underwriting"], "content_policy": "feed_metadata_and_short_excerpt_only"
+    },
+    {
+      "id": "fintech-futures-discovery", "name": "FinTech Futures discovery feed", "publisher": "FinTech Futures",
+      "source_class": "secondary", "source_tier": "secondary", "auto_publish": false, "publish_mode": "candidate", "enabled": true,
+      "canonical_url": "https://www.fintechfutures.com/feed/", "url": "https://www.fintechfutures.com/feed/",
+      "machine_endpoint": {"adapter": "discovery_rss", "url": "https://www.fintechfutures.com/feed/"},
+      "adapter": "discovery_rss", "allowed_domains": ["fintechfutures.com"], "company_ids": [], "country": "US", "jurisdictions": ["US"], "sectors": ["Financial Infrastructure"],
+      "include_keywords": ["AI", "artificial intelligence", "machine learning"], "content_policy": "feed_metadata_and_short_excerpt_only"
+    }
+  ]
+}

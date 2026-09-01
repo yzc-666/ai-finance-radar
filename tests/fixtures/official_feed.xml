@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AlphaSense News</title>
+    <link>https://www.alpha-sense.com/press/</link>
+    <description>Official AlphaSense announcements used for offline tests.</description>
+    <item>
+      <title>AlphaSense Raises $350M at $7.5B Valuation</title>
+      <link>https://www.alpha-sense.com/press/alphasense-raises-350m-at-7-5b-valuation-and-surpasses-600m-in-annual-recurring-revenue/?utm_source=rss</link>
+      <guid isPermaLink="true">https://www.alpha-sense.com/press/alphasense-raises-350m-at-7-5b-valuation-and-surpasses-600m-in-annual-recurring-revenue/</guid>
+      <pubDate>Wed, 03 Jun 2026 09:00:00 -0400</pubDate>
+      <description><![CDATA[AlphaSense announced the close of a $350 million funding round at a $7.5 billion valuation.]]></description>
+      <category>Funding</category>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>AlphaSense Raises $350M at $7.5B Valuation</title>
+      <link>https://www.alpha-sense.com/press/alphasense-raises-350m-at-7-5b-valuation-and-surpasses-600m-in-annual-recurring-revenue/?utm_medium=feed</link>
+      <guid isPermaLink="true">alphasense-350m-duplicate</guid>
+      <pubDate>Wed, 03 Jun 2026 09:00:00 -0400</pubDate>
+      <description><![CDATA[Duplicate fixture item used to test canonical URL deduplication.]]></description>
+      <category>Funding</category>
+    </item>
+  </channel>
+</rss>

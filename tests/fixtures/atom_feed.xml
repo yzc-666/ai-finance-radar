@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hebbia Newsroom</title>
+  <id>https://www.hebbia.com/newsroom</id>
+  <updated>2026-02-24T14:00:00Z</updated>
+  <entry>
+    <title>Hebbia Partners with Fitch Solutions on Credit Market Intelligence</title>
+    <id>https://www.hebbia.com/newsroom/hebbia-partners-with-fitch-solutions</id>
+    <link rel="alternate" href="https://www.hebbia.com/newsroom/hebbia-partners-with-fitch-solutions?utm_campaign=feed" />
+    <published>2026-02-24T14:00:00Z</published>
+    <updated>2026-02-24T14:00:00Z</updated>
+    <summary type="html">&lt;p&gt;Hebbia and Fitch Solutions announced a partnership for credit-market research.&lt;/p&gt;</summary>
+    <category term="Partnership" />
+  </entry>
+</feed>

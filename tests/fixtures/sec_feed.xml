@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>SEC Press Releases</title>
+    <link>https://www.sec.gov/newsroom/press-releases</link>
+    <description>Official SEC press release fixture.</description>
+    <item>
+      <title>SEC Announces Cyber and Emerging Technologies Unit to Protect Retail Investors</title>
+      <link>https://www.sec.gov/newsroom/press-releases/2025-42?utm_source=fixture</link>
+      <guid isPermaLink="true">https://www.sec.gov/newsroom/press-releases/2025-42</guid>
+      <pubDate>Thu, 20 Feb 2025 12:00:00 -0500</pubDate>
+      <description><![CDATA[The SEC announced a unit whose priorities include fraud involving artificial intelligence and machine learning.]]></description>
+      <category>Emerging technologies</category>
+    </item>
+  </channel>
+</rss>

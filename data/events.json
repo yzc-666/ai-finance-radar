@@ -1,0 +1,412 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-01T08:00:00Z",
+  "events": [
+    {
+      "id": "evt-2026-06-18-linklogis-beecloud",
+      "slug": "linklogis-launches-ai-native-beecloud-platform",
+      "type": "product",
+      "title": "Linklogis introduces the AI-native BeeCloud platform",
+      "company_ids": [
+        "linklogis"
+      ],
+      "country": "CN",
+      "sectors": [
+        "Banking Operations",
+        "Financial Infrastructure"
+      ],
+      "event_date": "2026-06-18",
+      "published_at": "2026-06-18T00:00:00Z",
+      "summary": "Linklogis introduced BeeCloud as an AI-native cloud operations platform for industrial and supply-chain finance.",
+      "context": "The launch sits alongside Linklogis' BeeLink AI Agent work for automating supply-chain finance workflows.",
+      "primary_url": "https://www.linklogis.com/en/news",
+      "publisher": "Linklogis",
+      "source_id": "linklogis-press-center",
+      "source_tier": "primary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "verified",
+      "provenance": [
+        {
+          "source_id": "linklogis-press-center",
+          "url": "https://www.linklogis.com/en/news",
+          "publisher": "Linklogis",
+          "source_tier": "primary",
+          "retrieved_at": "2026-09-01T08:00:00Z"
+        }
+      ],
+      "content_hash": "c4c0100353535e395a53accb67244f94b09306a7d640f8e4fbc69fc3ac15a825"
+    },
+    {
+      "id": "evt-2026-06-03-alphasense-funding",
+      "slug": "alphasense-raises-350m-at-7-5b-valuation",
+      "type": "funding",
+      "title": "AlphaSense raises $350 million at a $7.5 billion valuation",
+      "company_ids": [
+        "alphasense"
+      ],
+      "country": "US",
+      "sectors": [
+        "Research & Data"
+      ],
+      "event_date": "2026-06-03",
+      "published_at": "2026-06-03T00:00:00Z",
+      "summary": "AlphaSense announced a $350 million funding round at a $7.5 billion valuation.",
+      "context": "The company also reported annual recurring revenue above $600 million for the first quarter of 2026.",
+      "primary_url": "https://www.alpha-sense.com/press/alphasense-raises-350m-at-7-5b-valuation-and-surpasses-600m-in-annual-recurring-revenue",
+      "publisher": "AlphaSense",
+      "source_id": "alphasense-newsroom",
+      "source_tier": "primary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "verified",
+      "provenance": [
+        {
+          "source_id": "alphasense-newsroom",
+          "url": "https://www.alpha-sense.com/press/alphasense-raises-350m-at-7-5b-valuation-and-surpasses-600m-in-annual-recurring-revenue",
+          "publisher": "AlphaSense",
+          "source_tier": "primary",
+          "retrieved_at": "2026-09-01T08:00:00Z"
+        }
+      ],
+      "content_hash": "074595d23c47f1a99cd204e0211d4b8b6630f0d7bb11143dcf004c22c47fe015"
+    },
+    {
+      "id": "evt-2026-04-29-rogo-series-d",
+      "slug": "rogo-raises-160m-series-d",
+      "type": "funding",
+      "title": "Rogo raises $160 million in Series D financing",
+      "company_ids": [
+        "rogo"
+      ],
+      "country": "US",
+      "sectors": [
+        "Research & Data",
+        "Banking Operations"
+      ],
+      "event_date": "2026-04-29",
+      "published_at": "2026-04-29T00:00:00Z",
+      "summary": "Rogo announced $160 million in Series D financing led by Kleiner Perkins.",
+      "context": "Rogo said the capital would support deeper integrations, embedded teams, and expansion across Europe, the Middle East, Africa, and Asia.",
+      "primary_url": "https://rogo.ai/news/series-d",
+      "publisher": "Rogo",
+      "source_id": "rogo-newsroom",
+      "source_tier": "primary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "verified",
+      "provenance": [
+        {
+          "source_id": "rogo-newsroom",
+          "url": "https://rogo.ai/news/series-d",
+          "publisher": "Rogo",
+          "source_tier": "primary",
+          "retrieved_at": "2026-09-01T08:00:00Z"
+        }
+      ],
+      "content_hash": "303fd104e5494d4b994f1771ad7ec52ae13eddd4be31fddf2d3b72417eb69490"
+    },
+    {
+      "id": "evt-2026-03-24-feedzai-riskfm",
+      "slug": "feedzai-unveils-riskfm-foundation-model",
+      "type": "product",
+      "title": "Feedzai unveils the RiskFM foundation model",
+      "company_ids": [
+        "feedzai"
+      ],
+      "country": "US",
+      "sectors": [
+        "Fraud & Identity",
+        "AML/KYC & Compliance"
+      ],
+      "event_date": "2026-03-24",
+      "published_at": "2026-03-24T00:00:00Z",
+      "summary": "Feedzai unveiled RiskFM, a tabular foundation model built for financial data and risk decisioning.",
+      "context": "The company positions the model across onboarding, payments, fraud, and anti-money-laundering workflows.",
+      "primary_url": "https://www.feedzai.com/pressrelease/riskfm-ai-risk-model",
+      "publisher": "Feedzai",
+      "source_id": "feedzai-newsroom",
+      "source_tier": "primary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "verified",
+      "provenance": [
+        {
+          "source_id": "feedzai-newsroom",
+          "url": "https://www.feedzai.com/pressrelease/riskfm-ai-risk-model",
+          "publisher": "Feedzai",
+          "source_tier": "primary",
+          "retrieved_at": "2026-09-01T08:00:00Z"
+        }
+      ],
+      "content_hash": "2ec1312c7010995163fa484d883ac881f4d1c003870d48b16ea39cac6f31a4b3"
+    },
+    {
+      "id": "evt-2026-03-06-feedzai-novobanco",
+      "slug": "novobanco-selects-feedzai-for-fraud-and-aml-modernization",
+      "type": "customer",
+      "title": "Novobanco selects Feedzai for fraud and AML modernization",
+      "company_ids": [
+        "feedzai"
+      ],
+      "country": "US",
+      "sectors": [
+        "Fraud & Identity",
+        "AML/KYC & Compliance"
+      ],
+      "event_date": "2026-03-06",
+      "published_at": "2026-03-06T00:00:00Z",
+      "summary": "Feedzai announced that Novobanco selected its platform for a multi-year fraud and AML modernization program.",
+      "context": "The program brings transaction-fraud and AML capabilities into a unified risk platform.",
+      "primary_url": "https://www.feedzai.com/pressrelease/novobanco-modernizes-fraud-aml-with-feedzai-ai",
+      "publisher": "Feedzai",
+      "source_id": "feedzai-newsroom",
+      "source_tier": "primary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "verified",
+      "provenance": [
+        {
+          "source_id": "feedzai-newsroom",
+          "url": "https://www.feedzai.com/pressrelease/novobanco-modernizes-fraud-aml-with-feedzai-ai",
+          "publisher": "Feedzai",
+          "source_tier": "primary",
+          "retrieved_at": "2026-09-01T08:00:00Z"
+        }
+      ],
+      "content_hash": "2d3b0a443cc4c02a99bbe2d75f510f01134ffe5da2c093e6b5ccb1f9ed5cd3e5"
+    },
+    {
+      "id": "evt-2026-02-24-hebbia-fitch-partnership",
+      "slug": "hebbia-partners-with-fitch-solutions",
+      "type": "partnership",
+      "title": "Hebbia partners with Fitch Solutions",
+      "company_ids": [
+        "hebbia"
+      ],
+      "country": "US",
+      "sectors": [
+        "Research & Data"
+      ],
+      "event_date": "2026-02-24",
+      "published_at": "2026-02-24T00:00:00Z",
+      "summary": "Hebbia and Fitch Solutions announced a partnership to make Fitch research, ratings, and market commentary available through Hebbia.",
+      "context": "The integration is intended for citation-backed credit-market research and financial document workflows.",
+      "primary_url": "https://www.hebbia.com/newsroom/hebbia-partners-with-fitch-solutions",
+      "publisher": "Hebbia",
+      "source_id": "hebbia-newsroom",
+      "source_tier": "primary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "verified",
+      "provenance": [
+        {
+          "source_id": "hebbia-newsroom",
+          "url": "https://www.hebbia.com/newsroom/hebbia-partners-with-fitch-solutions",
+          "publisher": "Hebbia",
+          "source_tier": "primary",
+          "retrieved_at": "2026-09-01T08:00:00Z"
+        }
+      ],
+      "content_hash": "85e4fa665dc6b98afb93c6c432aeb1c3fb10e961e425fea689493d8203bffa90"
+    },
+    {
+      "id": "evt-2025-05-19-qifu-ai-credit",
+      "slug": "qifu-rolls-out-ai-plus-credit-strategy",
+      "type": "product",
+      "title": "Qifu rolls out its AI-plus-credit strategy",
+      "company_ids": [
+        "qifu-technology"
+      ],
+      "country": "CN",
+      "sectors": [
+        "Credit & Underwriting",
+        "Banking Operations"
+      ],
+      "event_date": "2025-05-19",
+      "published_at": "2025-05-19T00:00:00Z",
+      "summary": "Qifu Technology reported that it had begun rolling out an AI-plus-credit strategy and an AI-agent platform for core credit processes.",
+      "context": "The company said the work includes AI-plus-bank products intended for financial-institution operations.",
+      "primary_url": "https://ir.qifu.tech/news-releases/news-release-details/qifu-technology-announces-first-quarter-2025-unaudited-financial",
+      "publisher": "Qfin Holdings",
+      "source_id": "qifu-investor-relations",
+      "source_tier": "primary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "verified",
+      "provenance": [
+        {
+          "source_id": "qifu-investor-relations",
+          "url": "https://ir.qifu.tech/news-releases/news-release-details/qifu-technology-announces-first-quarter-2025-unaudited-financial",
+          "publisher": "Qfin Holdings",
+          "source_tier": "primary",
+          "retrieved_at": "2026-09-01T08:00:00Z"
+        }
+      ],
+      "content_hash": "b8a5c07c6292fe64cc0ed5fee14826dc740acc70172eb32a9baeac1313600e1e"
+    },
+    {
+      "id": "evt-2025-04-22-feedzai-demyst",
+      "slug": "feedzai-acquires-demyst",
+      "type": "acquisition",
+      "title": "Feedzai acquires Demyst",
+      "company_ids": [
+        "feedzai"
+      ],
+      "country": "US",
+      "sectors": [
+        "Fraud & Identity",
+        "AML/KYC & Compliance",
+        "Financial Infrastructure"
+      ],
+      "event_date": "2025-04-22",
+      "published_at": "2025-04-22T00:00:00Z",
+      "summary": "Feedzai announced its acquisition of Demyst, including the Zonic data workflow orchestration platform and related technology.",
+      "context": "Feedzai said the combination would connect data orchestration with fraud and financial-crime risk decisions.",
+      "primary_url": "https://www.feedzai.com/pressrelease/feedzai-acquires-demyst-zonic",
+      "publisher": "Feedzai",
+      "source_id": "feedzai-newsroom",
+      "source_tier": "primary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "verified",
+      "provenance": [
+        {
+          "source_id": "feedzai-newsroom",
+          "url": "https://www.feedzai.com/pressrelease/feedzai-acquires-demyst-zonic",
+          "publisher": "Feedzai",
+          "source_tier": "primary",
+          "retrieved_at": "2026-09-01T08:00:00Z"
+        }
+      ],
+      "content_hash": "e8689eef0b633cb506ed57d12669e5e8bd7cac0f15a346c915fb82a29e96770b"
+    },
+    {
+      "id": "evt-2025-02-20-sec-emerging-technologies-unit",
+      "slug": "sec-creates-cyber-and-emerging-technologies-unit",
+      "type": "regulation",
+      "title": "SEC creates a Cyber and Emerging Technologies Unit",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Trading & Wealth",
+        "Fraud & Identity",
+        "AML/KYC & Compliance"
+      ],
+      "event_date": "2025-02-20",
+      "published_at": "2025-02-20T00:00:00Z",
+      "summary": "The SEC created a Cyber and Emerging Technologies Unit whose priorities include securities fraud involving artificial intelligence and machine learning.",
+      "context": "The unit replaced the SEC's Crypto Assets and Cyber Unit and was announced with approximately 30 fraud specialists and attorneys.",
+      "primary_url": "https://www.sec.gov/newsroom/press-releases/2025-42",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "source_id": "sec-press-releases",
+      "source_tier": "primary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "verified",
+      "provenance": [
+        {
+          "source_id": "sec-press-releases",
+          "url": "https://www.sec.gov/newsroom/press-releases/2025-42",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "source_tier": "primary",
+          "retrieved_at": "2026-09-01T08:00:00Z"
+        }
+      ],
+      "content_hash": "890af3263e081a225382490cb984b2320e62dd910a5aeca02a58f546e51ca993"
+    },
+    {
+      "id": "evt-2025-02-11-sardine-series-c",
+      "slug": "sardine-raises-70m-series-c",
+      "type": "funding",
+      "title": "Sardine raises $70 million in Series C financing",
+      "company_ids": [
+        "sardine"
+      ],
+      "country": "US",
+      "sectors": [
+        "Fraud & Identity",
+        "AML/KYC & Compliance"
+      ],
+      "event_date": "2025-02-11",
+      "published_at": "2025-02-11T00:00:00Z",
+      "summary": "Sardine announced a $70 million Series C funding round led by Activant Capital.",
+      "context": "Sardine said the round brought its total funding at the time to $145 million and would support its AI risk platform.",
+      "primary_url": "https://www.sardine.ai/blog/series-c-announcement",
+      "publisher": "Sardine",
+      "source_id": "sardine-newsroom",
+      "source_tier": "primary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "verified",
+      "provenance": [
+        {
+          "source_id": "sardine-newsroom",
+          "url": "https://www.sardine.ai/blog/series-c-announcement",
+          "publisher": "Sardine",
+          "source_tier": "primary",
+          "retrieved_at": "2026-09-01T08:00:00Z"
+        }
+      ],
+      "content_hash": "c7a0a5383529eff20e54c75247adbd9b5ceb5b1b556de4d673e058e35c9d81c3"
+    },
+    {
+      "id": "evt-2024-12-13-zest-ai-growth-investment",
+      "slug": "zest-ai-announces-200m-growth-investment",
+      "type": "funding",
+      "title": "Zest AI announces a $200 million growth investment",
+      "company_ids": [
+        "zest-ai"
+      ],
+      "country": "US",
+      "sectors": [
+        "Credit & Underwriting",
+        "Fraud & Identity"
+      ],
+      "event_date": "2024-12-13",
+      "published_at": "2024-12-13T00:00:00Z",
+      "summary": "Zest AI announced a $200 million growth investment from Insight Partners.",
+      "context": "Zest AI said the investment would support underwriting, fraud protection, and generative-AI lending products.",
+      "primary_url": "https://www.zest.ai/company/announcements/zest-ai-announces-200-million-growth-investment-from-insight-partners",
+      "publisher": "Zest AI",
+      "source_id": "zest-ai-newsroom",
+      "source_tier": "primary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "verified",
+      "provenance": [
+        {
+          "source_id": "zest-ai-newsroom",
+          "url": "https://www.zest.ai/company/announcements/zest-ai-announces-200-million-growth-investment-from-insight-partners",
+          "publisher": "Zest AI",
+          "source_tier": "primary",
+          "retrieved_at": "2026-09-01T08:00:00Z"
+        }
+      ],
+      "content_hash": "d25585d295590ee3610e6e44bc48a6c29fb20316379d14c2185ce7c6a87dc7ae"
+    },
+    {
+      "id": "evt-2024-09-06-ant-xiaocai-launch",
+      "slug": "ant-group-launches-xiaocai-ai-financial-assistant",
+      "type": "product",
+      "title": "Ant Group launches the Xiaocai AI financial assistant",
+      "company_ids": [
+        "ant-group"
+      ],
+      "country": "CN",
+      "sectors": [
+        "Trading & Wealth",
+        "Customer Operations"
+      ],
+      "event_date": "2024-09-06",
+      "published_at": "2024-09-06T00:00:00Z",
+      "summary": "Ant Group announced the broad release of its Xiaocai AI financial assistant in Alipay and a pilot of the Pro version in the Ant Fortune app.",
+      "context": "Ant Group stated that licensed institutions provide the professional financial services surfaced by the assistant.",
+      "primary_url": "https://www.antgroup.com/news-media/press-releases/1725609600000",
+      "publisher": "Ant Group",
+      "source_id": "ant-group-newsroom",
+      "source_tier": "primary",
+      "retrieved_at": "2026-09-01T08:00:00Z",
+      "verification_status": "verified",
+      "provenance": [
+        {
+          "source_id": "ant-group-newsroom",
+          "url": "https://www.antgroup.com/news-media/press-releases/1725609600000",
+          "publisher": "Ant Group",
+          "source_tier": "primary",
+          "retrieved_at": "2026-09-01T08:00:00Z"
+        }
+      ],
+      "content_hash": "9dd1d6fac917b62c9ec65b065acaffacdc3d55fcc1a6ba81a2c07f9fbc97759b"
+    }
+  ]
+}

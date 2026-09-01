@@ -1,0 +1,246 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-01T08:00:00Z",
+  "companies": [
+    {
+      "id": "alphasense", "slug": "alphasense", "name": "AlphaSense", "country": "US", "hq": "New York, NY", "founded_year": 2011,
+      "sectors": ["Research & Data"], "one_liner": "AI-powered market intelligence, search, and research workflows for financial and corporate users.", "homepage": "https://www.alpha-sense.com/",
+      "products": [{"id": "alphasense-market-intelligence", "name": "AlphaSense Market Intelligence Platform", "note": "AI search and synthesis across filings, research, transcripts, news, and private content.", "url": "https://www.alpha-sense.com/platform/"}],
+      "sources": [{"url": "https://www.alpha-sense.com/", "publisher": "AlphaSense", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and product website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "kensho", "slug": "kensho", "name": "Kensho", "country": "US", "hq": "Cambridge, MA", "founded_year": 2013,
+      "sectors": ["Research & Data"], "one_liner": "Machine-learning and natural-language tools for financial data, documents, and market intelligence.", "homepage": "https://www.kensho.com/",
+      "products": [{"id": "kensho-financial-ai", "name": "Kensho Financial AI Solutions", "note": "AI services for extracting, linking, transcribing, and analyzing financial information.", "url": "https://www.kensho.com/solutions"}],
+      "sources": [{"url": "https://www.kensho.com/", "publisher": "Kensho", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and solutions website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "hebbia", "slug": "hebbia", "name": "Hebbia", "country": "US", "hq": "New York, NY", "founded_year": 2020,
+      "sectors": ["Research & Data"], "one_liner": "Generative AI research and document workflows built for investment and financial professionals.", "homepage": "https://www.hebbia.com/",
+      "products": [{"id": "hebbia-matrix", "name": "Hebbia Matrix", "note": "Citation-backed analysis across large collections of financial and internal documents.", "url": "https://www.hebbia.com/product"}],
+      "sources": [{"url": "https://www.hebbia.com/", "publisher": "Hebbia", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and product website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "rogo", "slug": "rogo", "name": "Rogo", "country": "US", "hq": "New York, NY", "founded_year": 2021,
+      "sectors": ["Research & Data", "Banking Operations"], "one_liner": "Finance-specific generative AI for research, analysis, and investment-banking workflows.", "homepage": "https://rogo.ai/",
+      "products": [{"id": "rogo-financial-ai", "name": "Rogo Financial AI Platform", "note": "Secure research, modeling, and workflow automation for financial institutions.", "url": "https://rogo.ai/"}],
+      "sources": [{"url": "https://rogo.ai/", "publisher": "Rogo", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and product website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "upstart", "slug": "upstart", "name": "Upstart", "country": "US", "hq": "San Mateo, CA", "founded_year": 2012,
+      "sectors": ["Credit & Underwriting", "Financial Infrastructure"], "one_liner": "AI lending marketplace and underwriting technology connecting financial institutions and borrowers.", "homepage": "https://www.upstart.com/",
+      "products": [{"id": "upstart-for-lenders", "name": "Upstart for Lenders", "note": "AI-powered credit decisioning and lending infrastructure for financial institutions.", "url": "https://www.upstart.com/for-lenders"}],
+      "sources": [{"url": "https://www.upstart.com/", "publisher": "Upstart", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and lender platform website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "zest-ai", "slug": "zest-ai", "name": "Zest AI", "country": "US", "hq": "Burbank, CA", "founded_year": 2009,
+      "sectors": ["Credit & Underwriting", "Fraud & Identity"], "one_liner": "AI credit underwriting and lending intelligence software for banks and credit unions.", "homepage": "https://www.zest.ai/",
+      "products": [{"id": "zest-ai-underwriting", "name": "Zest AI Underwriting", "note": "Automated, explainable machine-learning underwriting for consumer lending.", "url": "https://www.zest.ai/"}],
+      "sources": [{"url": "https://www.zest.ai/", "publisher": "Zest AI", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and product website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "scienaptic-ai", "slug": "scienaptic-ai", "name": "Scienaptic AI", "country": "US", "hq": "New York, NY", "founded_year": 2014,
+      "sectors": ["Credit & Underwriting"], "one_liner": "AI credit decisioning technology for banks, credit unions, and other lenders.", "homepage": "https://www.scienaptic.ai/",
+      "products": [{"id": "scienaptic-credit-decisioning", "name": "Scienaptic AI Credit Decisioning", "note": "Machine-learning decisioning for underwriting and portfolio management.", "url": "https://www.scienaptic.ai/"}],
+      "sources": [{"url": "https://www.scienaptic.ai/", "publisher": "Scienaptic AI", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and platform website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "ocrolus", "slug": "ocrolus", "name": "Ocrolus", "country": "US", "hq": "New York, NY", "founded_year": 2014,
+      "sectors": ["Banking Operations", "Credit & Underwriting"], "one_liner": "AI document analysis and cash-flow analytics for lending and financial operations.", "homepage": "https://www.ocrolus.com/",
+      "products": [{"id": "ocrolus-platform", "name": "Ocrolus Platform", "note": "Document classification, extraction, validation, and lending analytics.", "url": "https://www.ocrolus.com/platform/"}],
+      "sources": [{"url": "https://www.ocrolus.com/", "publisher": "Ocrolus", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and platform website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "highradius", "slug": "highradius", "name": "HighRadius", "country": "US", "hq": "Houston, TX", "founded_year": 2006,
+      "sectors": ["Banking Operations", "Financial Infrastructure"], "one_liner": "Autonomous-finance software for receivables, treasury, accounting, and B2B payments.", "homepage": "https://www.highradius.com/",
+      "products": [{"id": "highradius-autonomous-finance", "name": "HighRadius Autonomous Finance", "note": "AI-assisted automation for cash, treasury, and accounting workflows.", "url": "https://www.highradius.com/software/autonomous-finance/"}],
+      "sources": [{"url": "https://www.highradius.com/", "publisher": "HighRadius", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and software website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "datavisor", "slug": "datavisor", "name": "DataVisor", "country": "US", "hq": "Mountain View, CA", "founded_year": 2013,
+      "sectors": ["Fraud & Identity", "AML/KYC & Compliance"], "one_liner": "AI-native fraud and risk technology for financial institutions and digital businesses.", "homepage": "https://www.datavisor.com/",
+      "products": [{"id": "datavisor-fraud-platform", "name": "DataVisor Fraud and Risk Platform", "note": "Machine-learning fraud detection, identity risk, and investigation tools.", "url": "https://www.datavisor.com/products/fraud-platform"}],
+      "sources": [{"url": "https://www.datavisor.com/", "publisher": "DataVisor", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and platform website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "feedzai", "slug": "feedzai", "name": "Feedzai", "country": "US", "hq": "New York, NY (U.S. headquarters)", "founded_year": 2011,
+      "sectors": ["Fraud & Identity", "AML/KYC & Compliance"], "one_liner": "AI-native financial crime prevention for onboarding, payments, fraud, and AML workflows.", "homepage": "https://www.feedzai.com/",
+      "products": [{"id": "feedzai-riskops", "name": "Feedzai RiskOps Platform", "note": "AI risk operations spanning fraud prevention and financial-crime compliance.", "url": "https://www.feedzai.com/"}],
+      "sources": [{"url": "https://www.feedzai.com/", "publisher": "Feedzai", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official website; country follows the U.S. headquarters market."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "sardine", "slug": "sardine", "name": "Sardine", "country": "US", "hq": "San Francisco, CA", "founded_year": 2020,
+      "sectors": ["Fraud & Identity", "AML/KYC & Compliance"], "one_liner": "AI risk technology for fraud prevention, compliance, credit, and merchant risk.", "homepage": "https://www.sardine.ai/",
+      "products": [{"id": "sardine-risk-platform", "name": "Sardine Agentic Risk Platform", "note": "Risk decisioning and investigation across fraud, compliance, and merchant workflows.", "url": "https://www.sardine.ai/"}],
+      "sources": [{"url": "https://www.sardine.ai/", "publisher": "Sardine", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and platform website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "socure", "slug": "socure", "name": "Socure", "country": "US", "hq": "Incline Village, NV", "founded_year": 2012,
+      "sectors": ["Fraud & Identity", "AML/KYC & Compliance"], "one_liner": "AI identity verification and fraud prevention for financial and government services.", "homepage": "https://www.socure.com/",
+      "products": [{"id": "socure-riskos", "name": "Socure RiskOS", "note": "Identity verification, fraud decisioning, and case management.", "url": "https://www.socure.com/"}],
+      "sources": [{"url": "https://www.socure.com/", "publisher": "Socure", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and platform website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "alloy", "slug": "alloy", "name": "Alloy", "country": "US", "hq": "New York, NY", "founded_year": 2015,
+      "sectors": ["Fraud & Identity", "AML/KYC & Compliance", "Financial Infrastructure"], "one_liner": "Identity, fraud, and compliance decisioning infrastructure for banks and fintech companies.", "homepage": "https://www.alloy.com/",
+      "products": [{"id": "alloy-identity-risk", "name": "Alloy Identity and Fraud Platform", "note": "Orchestration and decisioning for onboarding, identity risk, and monitoring.", "url": "https://www.alloy.com/"}],
+      "sources": [{"url": "https://www.alloy.com/", "publisher": "Alloy", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and platform website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "unit21", "slug": "unit21", "name": "Unit21", "country": "US", "hq": "San Francisco, CA", "founded_year": 2018,
+      "sectors": ["Fraud & Identity", "AML/KYC & Compliance"], "one_liner": "AI-assisted transaction monitoring, fraud detection, AML, and case management.", "homepage": "https://www.unit21.ai/",
+      "products": [{"id": "unit21-fincrime-platform", "name": "Unit21 FinCrime Risk Platform", "note": "Monitoring, investigations, and reporting for fraud and AML teams.", "url": "https://www.unit21.ai/"}],
+      "sources": [{"url": "https://www.unit21.ai/", "publisher": "Unit21", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and platform website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "evolutioniq", "slug": "evolutioniq", "name": "EvolutionIQ", "country": "US", "hq": "New York, NY", "founded_year": 2019,
+      "sectors": ["Insurance"], "one_liner": "AI claims guidance for disability, workers' compensation, and property-casualty insurers.", "homepage": "https://www.evolutioniq.com/",
+      "products": [{"id": "evolutioniq-claims-guidance", "name": "EvolutionIQ Claims Guidance", "note": "Machine-learning guidance that helps claims teams prioritize complex cases.", "url": "https://www.evolutioniq.com/"}],
+      "sources": [{"url": "https://www.evolutioniq.com/", "publisher": "EvolutionIQ", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and insurance product website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "gradient-ai", "slug": "gradient-ai", "name": "Gradient AI", "country": "US", "hq": "Boston, MA", "founded_year": 2018,
+      "sectors": ["Insurance", "Credit & Underwriting"], "one_liner": "AI underwriting and claims solutions for property, casualty, and health insurers.", "homepage": "https://www.gradientai.com/",
+      "products": [{"id": "gradient-ai-insurance-suite", "name": "Gradient AI Insurance Suite", "note": "Predictive underwriting, pricing, and claims analytics for insurers.", "url": "https://www.gradientai.com/"}],
+      "sources": [{"url": "https://www.gradientai.com/", "publisher": "Gradient AI", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and insurance solutions website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "kasisto", "slug": "kasisto", "name": "Kasisto", "country": "US", "hq": "New York, NY", "founded_year": 2013,
+      "sectors": ["Customer Operations", "Banking Operations"], "one_liner": "Conversational and generative AI built specifically for banks and financial institutions.", "homepage": "https://kasisto.com/",
+      "products": [{"id": "kasisto-kai", "name": "KAI", "note": "Digital banking assistant technology for customer and employee interactions.", "url": "https://kasisto.com/"}],
+      "sources": [{"url": "https://kasisto.com/", "publisher": "Kasisto", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and KAI website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "interface-ai", "slug": "interface-ai", "name": "interface.ai", "country": "US", "hq": "San Jose, CA", "founded_year": 2019,
+      "sectors": ["Customer Operations", "Banking Operations"], "one_liner": "AI agents for voice, chat, and employee workflows at banks and credit unions.", "homepage": "https://interface.ai/",
+      "products": [{"id": "interface-agentic-ai", "name": "interface.ai Agentic AI Platform", "note": "AI agents for member service, collections, operations, and employee assistance.", "url": "https://interface.ai/"}],
+      "sources": [{"url": "https://interface.ai/", "publisher": "interface.ai", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and banking AI website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "posh-ai", "slug": "posh-ai", "name": "Posh AI", "country": "US", "hq": "Boston, MA", "founded_year": 2018,
+      "sectors": ["Customer Operations", "Banking Operations"], "one_liner": "Conversational and knowledge AI designed for banks and credit unions.", "homepage": "https://www.posh.ai/",
+      "products": [{"id": "posh-banking-assistant", "name": "Posh Banking Assistant", "note": "Digital, voice, and employee assistants for financial-institution service workflows.", "url": "https://www.posh.ai/"}],
+      "sources": [{"url": "https://www.posh.ai/", "publisher": "Posh AI", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and banking AI website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "norm-ai", "slug": "norm-ai", "name": "Norm AI", "country": "US", "hq": "New York, NY", "founded_year": 2023,
+      "sectors": ["AML/KYC & Compliance", "Banking Operations"], "one_liner": "Regulatory AI agents that convert legal requirements into executable compliance workflows.", "homepage": "https://www.norm.ai/",
+      "products": [{"id": "norm-regulatory-ai", "name": "Norm Regulatory AI", "note": "AI agents for regulatory analysis, controls, and compliance operations.", "url": "https://www.norm.ai/"}],
+      "sources": [{"url": "https://www.norm.ai/", "publisher": "Norm AI", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and regulatory AI website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "ascent-regtech", "slug": "ascent-regtech", "name": "Ascent RegTech", "country": "US", "hq": "Chicago, IL", "founded_year": 2015,
+      "sectors": ["AML/KYC & Compliance"], "one_liner": "AI-enabled regulatory intelligence and obligation management for financial institutions.", "homepage": "https://www.ascentregtech.com/",
+      "products": [{"id": "ascent-regulatory-knowledge", "name": "Ascent Regulatory Knowledge Platform", "note": "Machine-readable obligations and regulatory change management for compliance teams.", "url": "https://www.ascentregtech.com/"}],
+      "sources": [{"url": "https://www.ascentregtech.com/", "publisher": "Ascent RegTech", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and compliance platform website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "ant-group", "slug": "ant-group", "name": "Ant Group", "country": "CN", "hq": "Hangzhou, Zhejiang", "founded_year": 2014,
+      "sectors": ["Trading & Wealth", "Credit & Underwriting", "Financial Infrastructure"], "one_liner": "Digital-finance technology group applying AI to wealth, credit, payments, and financial services.", "homepage": "https://www.antgroup.com/en",
+      "products": [{"id": "ant-xiaocai", "name": "Ant Xiaocai AI Financial Assistant", "note": "AI financial information and investor-education assistant delivered through licensed institutions.", "url": "https://www.antgroup.com/news-media/press-releases/1725609600000"}],
+      "sources": [{"url": "https://www.antgroup.com/en", "publisher": "Ant Group", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and press website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "oneconnect", "slug": "oneconnect", "name": "OneConnect", "country": "CN", "hq": "Shenzhen, Guangdong", "founded_year": 2015,
+      "sectors": ["Banking Operations", "Credit & Underwriting", "Fraud & Identity", "AML/KYC & Compliance", "Insurance", "Financial Infrastructure"], "one_liner": "Financial-technology services using AI, analytics, and digital infrastructure for institutions.", "homepage": "https://www.ocft.com/en/",
+      "products": [{"id": "oneconnect-ai-ekyc", "name": "OneConnect AI-Powered eKYC", "note": "Identity, liveness, document, and deepfake risk controls for financial onboarding.", "url": "https://www.ocft.com/en/"}],
+      "sources": [{"url": "https://www.ocft.com/en/", "publisher": "OneConnect", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and solutions website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "tongdun", "slug": "tongdun", "name": "Tongdun Technology", "country": "CN", "hq": "Hangzhou, Zhejiang", "founded_year": 2013,
+      "sectors": ["Credit & Underwriting", "Fraud & Identity", "AML/KYC & Compliance"], "one_liner": "AI risk-control and decisioning technology for lending, fraud, identity, and compliance.", "homepage": "https://www.tongdun.net/",
+      "products": [{"id": "tongdun-risk-intelligence", "name": "Tongdun Risk Intelligence Platform", "note": "Data and machine-learning tools for credit and anti-fraud decisions.", "url": "https://www.tongdun.net/"}],
+      "sources": [{"url": "https://www.tongdun.net/", "publisher": "Tongdun Technology", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and risk technology website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "bairong", "slug": "bairong", "name": "BaiRong", "country": "CN", "hq": "Beijing", "founded_year": 2014,
+      "sectors": ["Banking Operations", "Credit & Underwriting", "Customer Operations"], "one_liner": "AI and cloud technology for financial marketing, risk management, and customer operations.", "homepage": "https://www.brgroup.com/en/",
+      "products": [{"id": "bairong-ai-cloud", "name": "BaiRong AI Cloud", "note": "AI models and decisioning services for financial-institution operations.", "url": "https://www.brgroup.com/en/"}],
+      "sources": [{"url": "https://www.brgroup.com/en/", "publisher": "BaiRong", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and technology website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "icekredit", "slug": "icekredit", "name": "IceKredit", "country": "CN", "hq": "Shanghai", "founded_year": 2015,
+      "sectors": ["Credit & Underwriting", "Fraud & Identity"], "one_liner": "AI credit-risk and decisioning systems for banks and consumer-finance institutions.", "homepage": "https://www.icekredit.com/",
+      "products": [{"id": "icekredit-risk-decisioning", "name": "IceKredit AI Risk Decisioning", "note": "Machine-learning credit assessment and lifecycle risk management.", "url": "https://www.icekredit.com/"}],
+      "sources": [{"url": "https://www.icekredit.com/", "publisher": "IceKredit", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and solutions website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "shumei-technology", "slug": "shumei-technology", "name": "Shumei Technology", "country": "CN", "hq": "Beijing", "founded_year": 2015,
+      "sectors": ["Fraud & Identity", "AML/KYC & Compliance"], "one_liner": "AI risk intelligence for fraud, account security, and digital transaction protection.", "homepage": "https://www.ishumei.com/",
+      "products": [{"id": "shumei-risk-control", "name": "Shumei Intelligent Risk Control", "note": "Machine-learning risk identification for accounts, transactions, and content.", "url": "https://www.ishumei.com/"}],
+      "sources": [{"url": "https://www.ishumei.com/", "publisher": "Shumei Technology", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and risk control website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "webank", "slug": "webank", "name": "WeBank", "country": "CN", "hq": "Shenzhen, Guangdong", "founded_year": 2014,
+      "sectors": ["Banking Operations", "Credit & Underwriting", "Financial Infrastructure"], "one_liner": "Digital bank using AI and distributed technology for lending and banking operations.", "homepage": "https://www.webank.com/",
+      "products": [{"id": "webank-ai", "name": "WeBank AI", "note": "AI capabilities supporting digital credit, risk, service, and bank operations.", "url": "https://www.webank.com/"}],
+      "sources": [{"url": "https://www.webank.com/", "publisher": "WeBank", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official bank and technology website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "mybank", "slug": "mybank", "name": "MYbank", "country": "CN", "hq": "Hangzhou, Zhejiang", "founded_year": 2015,
+      "sectors": ["Credit & Underwriting", "Banking Operations"], "one_liner": "Digital bank applying automated risk models to small-business and rural lending.", "homepage": "https://www.mybank.cn/",
+      "products": [{"id": "mybank-310-lending", "name": "MYbank 310 Lending Model", "note": "Automated small-business lending using data-driven credit assessment.", "url": "https://www.mybank.cn/"}],
+      "sources": [{"url": "https://www.mybank.cn/", "publisher": "MYbank", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official digital bank website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "du-xiaoman", "slug": "du-xiaoman", "name": "Du Xiaoman Financial", "country": "CN", "hq": "Beijing", "founded_year": 2018,
+      "sectors": ["Credit & Underwriting", "Fraud & Identity", "Financial Infrastructure"], "one_liner": "Financial technology applying AI to credit, risk control, and institution services.", "homepage": "https://www.duxiaoman.com/",
+      "products": [{"id": "du-xiaoman-risk-control", "name": "Du Xiaoman Intelligent Risk Control", "note": "AI risk models for consumer and small-business finance.", "url": "https://www.duxiaoman.com/"}],
+      "sources": [{"url": "https://www.duxiaoman.com/", "publisher": "Du Xiaoman Financial", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and technology website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "qifu-technology", "slug": "qifu-technology", "name": "Qifu Technology", "country": "CN", "hq": "Shanghai", "founded_year": 2016,
+      "sectors": ["Credit & Underwriting", "Banking Operations"], "one_liner": "AI-empowered credit technology for borrower assessment and financial-institution loan operations.", "homepage": "https://ir.qifu.tech/",
+      "products": [{"id": "qifu-focus-pro", "name": "Qifu Focus PRO", "note": "Credit technology and AI-agent capabilities for financial institutions.", "url": "https://ir.qifu.tech/"}],
+      "sources": [{"url": "https://ir.qifu.tech/", "publisher": "Qfin Holdings", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official investor-relations and company website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "finvolution", "slug": "finvolution", "name": "FinVolution Group", "country": "CN", "hq": "Shanghai", "founded_year": 2007,
+      "sectors": ["Credit & Underwriting", "Fraud & Identity"], "one_liner": "Fintech platform using AI risk assessment and matching for consumer credit services.", "homepage": "https://www.finvgroup.com/",
+      "products": [{"id": "finvolution-magic-mirror", "name": "FinVolution Magic Mirror", "note": "Data-driven credit-risk assessment supporting the lending lifecycle.", "url": "https://www.finvgroup.com/"}],
+      "sources": [{"url": "https://www.finvgroup.com/", "publisher": "FinVolution Group", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and investor website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "lexinfintech", "slug": "lexinfintech", "name": "LexinFintech", "country": "CN", "hq": "Shenzhen, Guangdong", "founded_year": 2013,
+      "sectors": ["Credit & Underwriting", "Fraud & Identity"], "one_liner": "Consumer-finance technology using AI for risk, matching, and customer operations.", "homepage": "https://www.lexin.com/",
+      "products": [{"id": "lexin-smart-risk", "name": "Lexin Smart Risk Platform", "note": "AI-supported risk assessment and credit operations.", "url": "https://www.lexin.com/"}],
+      "sources": [{"url": "https://www.lexin.com/", "publisher": "LexinFintech", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "linklogis", "slug": "linklogis", "name": "Linklogis", "country": "CN", "hq": "Shenzhen, Guangdong", "founded_year": 2016,
+      "sectors": ["Credit & Underwriting", "Banking Operations", "Financial Infrastructure"], "one_liner": "AI and cloud infrastructure for supply-chain finance and cross-border trade finance.", "homepage": "https://www.linklogis.com/en/welcome/",
+      "products": [{"id": "linklogis-beelink-ai-agent", "name": "BeeLink AI Agent", "note": "AI agent for intelligent and automated supply-chain finance operations.", "url": "https://www.linklogis.com/en/about/"}],
+      "sources": [{"url": "https://www.linklogis.com/en/about/", "publisher": "Linklogis", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company profile and product information."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "xtransfer", "slug": "xtransfer", "name": "XTransfer", "country": "CN", "hq": "Shanghai", "founded_year": 2017,
+      "sectors": ["AML/KYC & Compliance", "Fraud & Identity", "Financial Infrastructure"], "one_liner": "Cross-border financial platform using AI risk controls for small and midsize exporters.", "homepage": "https://www.xtransfer.com/",
+      "products": [{"id": "xtransfer-ai-aml", "name": "XTransfer AI AML Risk Control", "note": "Automated compliance and transaction-risk controls for cross-border business payments.", "url": "https://www.xtransfer.com/"}],
+      "sources": [{"url": "https://www.xtransfer.com/", "publisher": "XTransfer", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and platform website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "aqumon", "slug": "aqumon", "name": "AQUMON", "country": "CN", "hq": "Hong Kong", "founded_year": 2015,
+      "sectors": ["Trading & Wealth", "Research & Data"], "one_liner": "Algorithmic wealth technology and digital investment infrastructure for institutions and investors.", "homepage": "https://www.aqumon.com/",
+      "products": [{"id": "aqumon-digital-wealth", "name": "AQUMON Digital Wealth Platform", "note": "Quantitative portfolio tools and digital wealth infrastructure.", "url": "https://www.aqumon.com/"}],
+      "sources": [{"url": "https://www.aqumon.com/", "publisher": "AQUMON", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and wealth technology website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "zhongan-online", "slug": "zhongan-online", "name": "ZhongAn Online", "country": "CN", "hq": "Shanghai", "founded_year": 2013,
+      "sectors": ["Insurance", "Credit & Underwriting", "Fraud & Identity"], "one_liner": "Digital insurer applying AI to underwriting, claims, risk control, and insurance operations.", "homepage": "https://www.zhongan.com/",
+      "products": [{"id": "zhongan-insurance-technology", "name": "ZhongAn Insurance Technology", "note": "AI-supported digital insurance underwriting, claims, and operations.", "url": "https://www.zhongan.com/"}],
+      "sources": [{"url": "https://www.zhongan.com/", "publisher": "ZhongAn Online", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official insurer website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "chinascope", "slug": "chinascope", "name": "ChinaScope", "country": "CN", "hq": "Shanghai", "founded_year": 2009,
+      "sectors": ["Research & Data", "Trading & Wealth"], "one_liner": "AI-based financial data, knowledge graphs, and research technology for institutions.", "homepage": "https://www.chinascope.com/",
+      "products": [{"id": "chinascope-financial-data", "name": "ChinaScope Intelligent Financial Data", "note": "Structured financial information and AI research tools for investment workflows.", "url": "https://www.chinascope.com/"}],
+      "sources": [{"url": "https://www.chinascope.com/", "publisher": "ChinaScope", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and financial data website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "hundsun-technologies", "slug": "hundsun-technologies", "name": "Hundsun Technologies", "country": "CN", "hq": "Hangzhou, Zhejiang", "founded_year": 1995,
+      "sectors": ["Trading & Wealth", "Banking Operations", "Financial Infrastructure"], "one_liner": "Financial software applying AI to securities, wealth, banking, and institution workflows.", "homepage": "https://www.hundsun.com/",
+      "products": [{"id": "hundsun-financial-ai", "name": "Hundsun Financial AI Solutions", "note": "AI tools and infrastructure for research, service, trading, and financial operations.", "url": "https://www.hundsun.com/"}],
+      "sources": [{"url": "https://www.hundsun.com/", "publisher": "Hundsun Technologies", "tier": "primary", "retrieved_at": "2026-09-01T08:00:00Z", "note": "Official company and financial technology website."}], "verification_status": "verified", "last_verified_at": "2026-09-01T08:00:00Z"
+    }
+  ]
+}

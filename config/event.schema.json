@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-finance-radar.local/config/event.schema.json",
+  "title": "AI x Finance Radar verified event dataset",
+  "description": "Context is editorial metadata and is kept separate from the factual summary.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "updated_at", "events"],
+  "properties": {
+    "schema_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "events": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/event"}
+    }
+  },
+  "$defs": {
+    "sector": {
+      "enum": [
+        "Research & Data",
+        "Trading & Wealth",
+        "Banking Operations",
+        "Credit & Underwriting",
+        "Fraud & Identity",
+        "AML/KYC & Compliance",
+        "Insurance",
+        "Customer Operations",
+        "Financial Infrastructure"
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "url", "publisher", "source_tier", "retrieved_at"],
+      "properties": {
+        "source_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "url": {"type": "string", "format": "uri", "pattern": "^https://"},
+        "publisher": {"type": "string", "minLength": 1},
+        "source_tier": {"const": "primary"},
+        "retrieved_at": {"type": "string", "format": "date-time"}
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "type",
+        "title",
+        "company_ids",
+        "country",
+        "sectors",
+        "event_date",
+        "published_at",
+        "summary",
+        "primary_url",
+        "publisher",
+        "source_id",
+        "source_tier",
+        "retrieved_at",
+        "verification_status",
+        "provenance",
+        "content_hash"
+      ],
+      "properties": {
+        "id": {"type": "string", "pattern": "^evt-[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "type": {"enum": ["funding", "product", "partnership", "customer", "acquisition", "regulation"]},
+        "title": {"type": "string", "minLength": 1, "maxLength": 300},
+        "company_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}
+        },
+        "country": {"enum": ["CN", "US"]},
+        "sectors": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/sector"}
+        },
+        "event_date": {"type": "string", "format": "date"},
+        "published_at": {"type": "string", "format": "date-time"},
+        "summary": {"type": "string", "minLength": 1, "maxLength": 500},
+        "context": {"type": ["string", "null"], "maxLength": 600},
+        "primary_url": {"type": "string", "format": "uri", "pattern": "^https://"},
+        "publisher": {"type": "string", "minLength": 1},
+        "source_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "source_tier": {"const": "primary"},
+        "retrieved_at": {"type": "string", "format": "date-time"},
+        "verification_status": {"const": "verified"},
+        "provenance": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/provenance"}
+        },
+        "content_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    }
+  }
+}
