@@ -1,7 +1,29 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-01T09:26:12Z",
+  "updated_at": "2026-09-13T07:28:54Z",
   "candidates": [
+    {
+      "id": "cand-techcrunch-fintech-discovery-1c991b06ba34e0e2",
+      "slug": "revolut-confirms-customer-data-breach-through-fake-government-requests-1c991b06",
+      "type": "regulation",
+      "title": "Revolut confirms customer data breach through fake government requests",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Financial Infrastructure"
+      ],
+      "event_date": "2026-09-12",
+      "published_at": "2026-09-12T14:40:00Z",
+      "summary": "Revolut said it notified affected customers and alerted the relevant government agency, law enforcement, and financial regulators.",
+      "discovery_url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-09-13T07:28:54Z",
+      "verification_status": "unverified",
+      "verification_notes": "secondary sources are discovery-only; locate an allowlisted primary source before publication.",
+      "content_hash": "adac082a3e244c987889946f4a55e5994fc07712edd3cff3a627179851ada6c2"
+    },
     {
       "id": "cand-techcrunch-fintech-discovery-fa3f76ef67609da5",
       "slug": "ryan-breslow-is-raising-up-to-27m-in-pay-to-play-bridge-funding-to-save-fa3f76ef",
