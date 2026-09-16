@@ -1,7 +1,29 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-13T07:28:54Z",
+  "updated_at": "2026-09-16T07:42:26Z",
   "candidates": [
+    {
+      "id": "cand-techcrunch-fintech-discovery-c97e90e119500047",
+      "slug": "india-ends-free-ride-for-larger-transactions-on-its-ubiquitous-digital-p-c97e90e1",
+      "type": "product",
+      "title": "India ends free ride for larger transactions on its ubiquitous digital payments network",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Financial Infrastructure"
+      ],
+      "event_date": "2026-09-15",
+      "published_at": "2026-09-15T14:22:49Z",
+      "summary": "India will impose a 0.4% merchant fee on certain payments made through UPI starting October 15.",
+      "discovery_url": "https://techcrunch.com/2026/09/15/india-ends-free-ride-for-larger-transactions-on-its-ubiquitous-digital-payments-network",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-09-16T07:42:26Z",
+      "verification_status": "unverified",
+      "verification_notes": "secondary sources are discovery-only; locate an allowlisted primary source before publication.",
+      "content_hash": "9a731c138ba5e7e9fbd2c2641a1b013622f51d4ad1a532e55ef40228e0595279"
+    },
     {
       "id": "cand-techcrunch-fintech-discovery-1c991b06ba34e0e2",
       "slug": "revolut-confirms-customer-data-breach-through-fake-government-requests-1c991b06",
