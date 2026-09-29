@@ -1,7 +1,51 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-16T07:42:26Z",
+  "updated_at": "2026-09-29T08:33:11Z",
   "candidates": [
+    {
+      "id": "cand-techcrunch-fintech-discovery-b9e20bed0c58428c",
+      "slug": "next-5-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disr-b9e20bed",
+      "type": "product",
+      "title": "Next 5 VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Financial Infrastructure"
+      ],
+      "event_date": "2026-09-28",
+      "published_at": "2026-09-28T14:30:00Z",
+      "summary": "Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Register for TechCrunch Disrupt 2026 today.",
+      "discovery_url": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-09-29T08:33:11Z",
+      "verification_status": "unverified",
+      "verification_notes": "secondary sources are discovery-only; locate an allowlisted primary source before publication.",
+      "content_hash": "fcb5e2661b96fd5aa9ac07e5d4166d0fc3897f21b1eb52c6e54b8540805bbce3"
+    },
+    {
+      "id": "cand-techcrunch-fintech-discovery-412932816f11c7f5",
+      "slug": "insurtech-outmarket-raises-34-5m-just-months-after-prior-round-41293281",
+      "type": "funding",
+      "title": "Insurtech Outmarket raises $34.5M just months after prior round",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Financial Infrastructure"
+      ],
+      "event_date": "2026-09-28",
+      "published_at": "2026-09-28T14:00:00Z",
+      "summary": "The startup uses AI to automate tedious paperwork for insurance agencies and brokers.",
+      "discovery_url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-09-29T08:33:11Z",
+      "verification_status": "unverified",
+      "verification_notes": "secondary sources are discovery-only; locate an allowlisted primary source before publication.",
+      "content_hash": "75f777106f12a13aac139378dffe32edc6b6cb08e4a7b0a15d6279e137327c2b"
+    },
     {
       "id": "cand-techcrunch-fintech-discovery-c97e90e119500047",
       "slug": "india-ends-free-ride-for-larger-transactions-on-its-ubiquitous-digital-p-c97e90e1",
