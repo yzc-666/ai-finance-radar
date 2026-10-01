@@ -1,7 +1,29 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-29T08:33:11Z",
+  "updated_at": "2026-10-01T08:58:14Z",
   "candidates": [
+    {
+      "id": "cand-techcrunch-fintech-discovery-f21dadcf6652f50c",
+      "slug": "charter-space-raises-5m-to-bring-insurance-to-the-stars-f21dadcf",
+      "type": "funding",
+      "title": "Charter Space raises $5M to bring insurance to the stars",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Financial Infrastructure"
+      ],
+      "event_date": "2026-09-30",
+      "published_at": "2026-09-30T13:00:00Z",
+      "summary": "As Charter explains on its website, a common experience for space companies is that regular insurers \"heard a bunch of scary science words and freaked out.\"",
+      "discovery_url": "https://techcrunch.com/2026/09/30/charter-space-raises-5m-to-bring-insurance-to-the-stars",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-10-01T08:58:14Z",
+      "verification_status": "unverified",
+      "verification_notes": "secondary sources are discovery-only; locate an allowlisted primary source before publication.",
+      "content_hash": "a672b9d9b5bb55cb029a88de8aa107adbcb03832a2b42779aca7e8d729d7a64b"
+    },
     {
       "id": "cand-techcrunch-fintech-discovery-b9e20bed0c58428c",
       "slug": "next-5-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disr-b9e20bed",
