@@ -1,7 +1,29 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-11T08:54:07Z",
+  "updated_at": "2026-10-14T07:39:50Z",
   "candidates": [
+    {
+      "id": "cand-techcrunch-fintech-discovery-8d190282a53b7c4a",
+      "slug": "india-delays-digital-payments-fee-rollout-amid-retailer-pushback-8d190282",
+      "type": "product",
+      "title": "India delays digital payments fee rollout amid retailer pushback",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Financial Infrastructure"
+      ],
+      "event_date": "2026-10-13",
+      "published_at": "2026-10-13T13:25:05Z",
+      "summary": "The NPCI, which operates the UPI network, said it was postponing the planned October 15 rollout of the 0.4% fee due to the festive shopping season.",
+      "discovery_url": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-10-14T07:39:50Z",
+      "verification_status": "unverified",
+      "verification_notes": "secondary sources are discovery-only; locate an allowlisted primary source before publication.",
+      "content_hash": "ce442b45959da935c45351eced1282755808c82b4309cd2382f6007c763c5e5a"
+    },
     {
       "id": "cand-techcrunch-fintech-discovery-a2deef81b10d05eb",
       "slug": "3-days-to-techcrunch-disrupt-2026-meet-the-startups-before-they-hit-main-a2deef81",
