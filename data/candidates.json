@@ -1,7 +1,29 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-15T07:28:09Z",
+  "updated_at": "2026-10-16T07:11:47Z",
   "candidates": [
+    {
+      "id": "cand-techcrunch-fintech-discovery-2678429d12c52a9c",
+      "slug": "ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai-2678429d",
+      "type": "funding",
+      "title": "Ramp reaches $60B valuation as it pushes deeper into AI",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Financial Infrastructure"
+      ],
+      "event_date": "2026-10-15",
+      "published_at": "2026-10-15T14:47:09Z",
+      "summary": "The funding comes as Ramp's annualized revenue crosses $2B, and its customer count reaches 85,000.",
+      "discovery_url": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-10-16T07:11:47Z",
+      "verification_status": "unverified",
+      "verification_notes": "secondary sources are discovery-only; locate an allowlisted primary source before publication.",
+      "content_hash": "0400ed3e96237b8fdcf1ad07e176ddf591a739a66e16f8a69f1363bd802ab33d"
+    },
     {
       "id": "cand-techcrunch-fintech-discovery-2731d83a262b0568",
       "slug": "save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-2-days-2731d83a",
