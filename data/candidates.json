@@ -1,7 +1,29 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-16T07:11:47Z",
+  "updated_at": "2026-10-28T08:35:26Z",
   "candidates": [
+    {
+      "id": "cand-techcrunch-fintech-discovery-c81e59b1064a33ee",
+      "slug": "bank-of-america-kindly-asks-that-you-don-t-share-your-banking-password-w-c81e59b1",
+      "type": "product",
+      "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Financial Infrastructure"
+      ],
+      "event_date": "2026-10-27",
+      "published_at": "2026-10-27T21:44:34Z",
+      "summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+      "discovery_url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-10-28T08:35:26Z",
+      "verification_status": "unverified",
+      "verification_notes": "secondary sources are discovery-only; locate an allowlisted primary source before publication.",
+      "content_hash": "87113411fe43966abd6a65766234c1d969191043e95310ecdcd980cfffeb2589"
+    },
     {
       "id": "cand-techcrunch-fintech-discovery-2678429d12c52a9c",
       "slug": "ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai-2678429d",
