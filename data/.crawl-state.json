@@ -2,70 +2,70 @@
   "version": 1,
   "sources": {
     "alphasense-newsroom": {
-      "last_attempt_at": "2026-11-03T09:34:43Z",
+      "last_attempt_at": "2026-11-04T09:15:59Z",
       "requests": {
         "4b3d7f563dcacbce": {
-          "last_checked_at": "2026-11-03T09:34:43Z"
+          "last_checked_at": "2026-11-04T09:15:59Z"
         }
       },
       "last_status": "ok"
     },
     "rogo-newsroom": {
-      "last_attempt_at": "2026-11-03T09:34:43Z",
+      "last_attempt_at": "2026-11-04T09:15:59Z",
       "last_status": "skipped-no-machine-endpoint"
     },
     "hebbia-newsroom": {
-      "last_attempt_at": "2026-11-03T09:34:43Z",
+      "last_attempt_at": "2026-11-04T09:15:59Z",
       "last_status": "skipped-no-machine-endpoint"
     },
     "feedzai-newsroom": {
-      "last_attempt_at": "2026-11-03T09:34:43Z",
+      "last_attempt_at": "2026-11-04T09:15:59Z",
       "last_status": "skipped-no-machine-endpoint"
     },
     "zest-ai-newsroom": {
-      "last_attempt_at": "2026-11-03T09:34:43Z",
+      "last_attempt_at": "2026-11-04T09:15:59Z",
       "last_status": "skipped-no-machine-endpoint"
     },
     "sardine-newsroom": {
-      "last_attempt_at": "2026-11-03T09:34:43Z",
+      "last_attempt_at": "2026-11-04T09:15:59Z",
       "last_status": "skipped-no-machine-endpoint"
     },
     "ant-group-newsroom": {
-      "last_attempt_at": "2026-11-03T09:34:43Z",
+      "last_attempt_at": "2026-11-04T09:15:59Z",
       "last_status": "skipped-no-machine-endpoint"
     },
     "qifu-investor-relations": {
-      "last_attempt_at": "2026-11-03T09:34:43Z",
+      "last_attempt_at": "2026-11-04T09:15:59Z",
       "last_status": "skipped-no-machine-endpoint"
     },
     "linklogis-press-center": {
-      "last_attempt_at": "2026-11-03T09:34:43Z",
+      "last_attempt_at": "2026-11-04T09:15:59Z",
       "last_status": "skipped-no-machine-endpoint"
     },
     "sec-press-releases": {
-      "last_attempt_at": "2026-11-03T09:34:43Z",
+      "last_attempt_at": "2026-11-04T09:15:59Z",
       "requests": {
         "8940dd773777ae62": {
-          "last_checked_at": "2026-11-03T09:34:43Z",
-          "etag": "\"1793687971\"",
-          "last_modified": "Tue, 03 Nov 2026 06:39:31 GMT"
+          "last_checked_at": "2026-11-04T09:15:59Z",
+          "etag": "\"1793768329\"",
+          "last_modified": "Wed, 04 Nov 2026 04:58:49 GMT"
         }
       },
       "last_status": "ok"
     },
     "techcrunch-fintech-discovery": {
-      "last_attempt_at": "2026-11-03T09:34:43Z",
+      "last_attempt_at": "2026-11-04T09:15:59Z",
       "requests": {
         "d1ec7d97e3dc3a8b": {
-          "last_checked_at": "2026-11-03T09:34:43Z",
-          "etag": "W/\"64846b7147aa8f4d0674f2a039f15f77\"",
-          "last_modified": "Mon, 02 Nov 2026 19:17:56 GMT"
+          "last_checked_at": "2026-11-04T09:15:59Z",
+          "etag": "W/\"735fb05da4f123f6e72a5bc293941951\"",
+          "last_modified": "Wed, 04 Nov 2026 04:58:51 GMT"
         }
       },
       "last_status": "ok"
     },
     "fintech-futures-discovery": {
-      "last_attempt_at": "2026-11-03T09:34:43Z",
+      "last_attempt_at": "2026-11-04T09:15:59Z",
       "requests": {
         "2bc65ed06cb3ee4f": {}
       },
@@ -73,6 +73,6 @@
       "last_error": "HTTPError: HTTP Error 403: Forbidden"
     }
   },
-  "last_run_at": "2026-11-03T09:34:43Z",
+  "last_run_at": "2026-11-04T09:15:59Z",
   "overlap_hours": 72
 }
