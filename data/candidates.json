@@ -1,7 +1,29 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-31T08:27:20Z",
+  "updated_at": "2026-11-20T10:03:01Z",
   "candidates": [
+    {
+      "id": "cand-techcrunch-fintech-discovery-9f45002d58567a36",
+      "slug": "model-ml-raises-250m-to-automate-investment-banking-grunt-work-9f45002d",
+      "type": "funding",
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Financial Infrastructure"
+      ],
+      "event_date": "2026-11-17",
+      "published_at": "2026-11-17T19:32:11Z",
+      "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+      "discovery_url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-11-20T10:03:01Z",
+      "verification_status": "unverified",
+      "verification_notes": "secondary sources are discovery-only; locate an allowlisted primary source before publication.",
+      "content_hash": "393871da46185997e5e83ff95d92c6f03399c2d3fe9cfbc55611d064dbcc9085"
+    },
     {
       "id": "cand-techcrunch-fintech-discovery-67ad1de903233ad4",
       "slug": "skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-67ad1de9",
