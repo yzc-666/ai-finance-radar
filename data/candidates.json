@@ -1,7 +1,29 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-20T10:03:01Z",
+  "updated_at": "2026-11-24T12:30:56Z",
   "candidates": [
+    {
+      "id": "cand-techcrunch-fintech-discovery-cdf881dfccd31ef0",
+      "slug": "supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-cdf881df",
+      "type": "funding",
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "company_ids": [],
+      "country": "US",
+      "sectors": [
+        "Financial Infrastructure"
+      ],
+      "event_date": "2026-11-23",
+      "published_at": "2026-11-23T22:02:05Z",
+      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+      "discovery_url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+      "publisher": "TechCrunch",
+      "source_id": "techcrunch-fintech-discovery",
+      "source_tier": "secondary",
+      "retrieved_at": "2026-11-24T12:30:56Z",
+      "verification_status": "unverified",
+      "verification_notes": "secondary sources are discovery-only; locate an allowlisted primary source before publication.",
+      "content_hash": "c92d9acb0f3340dc37d8a6fd46c01b651513186f5ae3192a6b0538a4f1699fe2"
+    },
     {
       "id": "cand-techcrunch-fintech-discovery-9f45002d58567a36",
       "slug": "model-ml-raises-250m-to-automate-investment-banking-grunt-work-9f45002d",
